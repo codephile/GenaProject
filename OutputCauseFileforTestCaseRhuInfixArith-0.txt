@@ -1,0 +1,21 @@
+
+ Requirement String: [N]-[N]-[N]
+
+ String r: [N]-[N]-[N]
+ String r ops: --
+ String r ops substring sr: -
+ String r ops expression e: 333-45
+ String r ops answer: 288
+ String r ops correct answer: 288
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 474-409
+ String r ops answer: 65
+ String r ops correct answer: 65
+ Answers Match
+ String r ops substring sr: --
+ String r ops expression e: 491-374-180
+ String r ops answer: 297
+ String r ops correct answer: -63
+ Answers Do Not Match
+ r: --

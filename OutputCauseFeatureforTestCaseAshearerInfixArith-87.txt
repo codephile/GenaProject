@@ -1,0 +1,6 @@
+
+Reduced Requirement in error: ((Expr+Factor))
+Pattern in error: A
+Reduced Requirement in error: [N]*((Expr+Factor))*[N]
+Pattern in error outside loop: A
+ r: A

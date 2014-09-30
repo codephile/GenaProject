@@ -1,0 +1,50 @@
+
+Reduced Requirement in error: [N]/[N]
+Pattern in error: /
+Reduced Requirement in error: [N]-Factor/Term-Factor/Term
+Pattern in error: -
+Reduced Requirement in error: [N]-Factor/Term-Factor/Term
+Pattern in error outside loop: /
+Reduced Requirement in error: [N]-Factor/Term-Factor/Term
+Pattern in error outside loop: -
+Reduced Requirement in error: [N]-Factor/Term-Factor/Term
+Pattern in error outside loop: /
+Reduced Requirement in error: (Expr-Factor)*[N]/[N]*[N]
+Pattern in error: G
+Reduced Requirement in error: (Expr-Factor)*[N]/[N]*[N]
+Pattern in error: *
+Reduced Requirement in error: (Expr-Factor)*[N]/[N]*[N]
+Pattern in error outside loop: /
+Reduced Requirement in error: (Expr-Factor)*[N]/[N]*[N]
+Pattern in error outside loop: *
+Reduced Requirement in error: (Factor*Term)
+Pattern in error: H
+Reduced Requirement in error: ((Factor*Term))/[N]*[N]
+Pattern in error: C
+Reduced Requirement in error: ((Factor*Term))/[N]*[N]
+Pattern in error outside loop: /
+Reduced Requirement in error: ((Factor*Term))/[N]*[N]
+Pattern in error outside loop: *
+Reduced Requirement in error: (Factor*Term)*[N]/[N]*[N]*[N]
+Pattern in error outside loop: H
+Reduced Requirement in error: (Factor*Term)*[N]/[N]*[N]*[N]
+Pattern in error outside loop: *
+Reduced Requirement in error: (Factor*Term)*[N]/[N]*[N]*[N]
+Pattern in error outside loop: /
+Reduced Requirement in error: (Factor*Term)*[N]/[N]*[N]*[N]
+Pattern in error outside loop: *
+Reduced Requirement in error: (Factor*Term)*[N]/[N]*[N]*[N]
+Pattern in error outside loop: *
+Reduced Requirement in error: [N]-Factor/Term+Factor*Term
+Pattern in error outside loop: -
+Reduced Requirement in error: [N]-Factor/Term+Factor*Term
+Pattern in error outside loop: /
+Reduced Requirement in error: [N]-Factor/Term+Factor*Term
+Pattern in error: +
+Reduced Requirement in error: [N]-Factor/Term+Factor*Term
+Pattern in error outside loop: *
+ r: /
+ r: -
+ r: *
+ r: C
+ r: +

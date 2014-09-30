@@ -1,0 +1,76 @@
+
+ Requirement String: [N]*([N])*[N] ([N]) [N]/[N]+[N]-(Factor*Term)
+
+ String r: [N]*([N])*[N]
+ String r ops: *J*
+ String r ops substring sr: *
+ String r ops expression e: 380*68
+ String r ops answer: 25840
+ String r ops correct answer: 25840
+ Answers Match
+ String r ops substring sr: J
+ String r ops expression e: (348)
+ String r ops correct answer: 348
+ Answers Do Not Match
+ String r ops substring sr: *
+ String r ops expression e: 348*274
+ String r ops answer: 95352
+ String r ops correct answer: 95352
+ Answers Match
+ String r: ([N])
+ String r ops: J
+ String r ops substring sr: J
+ Answers Do Not Match: Outside Loop
+ String r: [N]/[N]+[N]-(Factor*Term)
+ String r ops: /+-H
+ String r ops substring sr: /
+ String r ops expression e: 424/479
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 205+514
+ String r ops answer: 719
+ String r ops correct answer: 719
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 455-27
+ String r ops answer: 428
+ String r ops correct answer: 428
+ Answers Match
+ String r ops substring sr: H
+ String r ops expression e: (132*21)
+ String r ops answer: 2772
+ String r ops correct answer: 2772
+ Answers Match
+ String r ops substring sr: /+
+ String r ops expression e: 26/374+384
+ String r ops answer: 384
+ String r ops correct answer: 384
+ Answers Match
+ String r ops substring sr: +-
+ String r ops expression e: 383+42-338
+ String r ops answer: 87
+ String r ops correct answer: 87
+ Answers Match
+ String r ops substring sr: -H
+ String r ops expression e: 332-(82*339)
+ String r ops answer: -27466
+ String r ops correct answer: -27466
+ Answers Match
+ String r ops substring sr: /+-
+ String r ops expression e: 340/468+266-118
+ String r ops answer: 148
+ String r ops correct answer: 148
+ Answers Match
+ String r ops substring sr: +-H
+ String r ops expression e: 49+422-(250*189)
+ String r ops answer: -46779
+ String r ops correct answer: -46779
+ Answers Match
+ String r ops substring sr: /+-H
+ String r ops expression e: 376/146+372-(187*167)
+ String r ops answer: -30855
+ String r ops correct answer: -30855
+ Answers Match
+ r: J

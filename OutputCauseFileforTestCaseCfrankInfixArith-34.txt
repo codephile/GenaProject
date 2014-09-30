@@ -1,0 +1,71 @@
+
+ Requirement String: ([N])/[N]/[N] [N]-Factor/Term+[N]+Factor/Term (Expr+Factor) [N]/[N]*(Expr+Factor)*[N] (Factor*Term)/[N]-[N]
+
+ String r: ([N])/[N]/[N]
+ String r ops: J//
+ String r ops substring sr: J
+ String r ops expression e: (465)
+ String r ops answer: 5
+ String r ops correct answer: 465
+ Answers Do Not Match
+ String r ops substring sr: /
+ String r ops expression e: 277/243
+ String r ops answer: 3
+ String r ops correct answer: 1
+ Answers Do Not Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r: [N]-Factor/Term+[N]+Factor/Term
+ String r ops: -/++/
+ String r ops substring sr: -
+ String r ops expression e: 43-63
+ String r ops answer: 3
+ String r ops correct answer: -20
+ Answers Do Not Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: +
+ String r ops expression e: 506+253
+ String r ops answer: 3
+ String r ops correct answer: 759
+ Answers Do Not Match
+ String r ops substring sr: +
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r: (Expr+Factor)
+ String r ops: F
+ String r ops substring sr: F
+ String r ops expression e: (410+513)
+ String r ops answer: 3
+ String r ops correct answer: 923
+ Answers Do Not Match
+ String r: [N]/[N]*(Expr+Factor)*[N]
+ String r ops: /*F*
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ String r ops expression e: 376*92
+ String r ops answer: 2
+ String r ops correct answer: 34592
+ Answers Do Not Match
+ String r ops substring sr: F
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r: (Factor*Term)/[N]-[N]
+ String r ops: H/-
+ String r ops substring sr: H
+ String r ops expression e: (382*154)
+ String r ops answer: 4
+ String r ops correct answer: 58828
+ Answers Do Not Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: -
+ Answers Do Not Match: Outside Loop
+ r: J
+ r: /
+ r: -
+ r: +
+ r: *

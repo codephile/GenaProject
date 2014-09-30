@@ -1,0 +1,6 @@
+
+Reduced Requirement in error: [N]/[N]/(Expr+Factor)-Factor*Term+Factor*Term
+Pattern in error: -*+
+Reduced Requirement in error: (Expr+Factor)-Factor*Term+Factor*Term+[N]
+Pattern in error outside loop: -*+
+ r: -*+

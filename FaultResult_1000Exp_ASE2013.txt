@@ -1,0 +1,446 @@
+[0]: 19.00%
+[//, */, /*, -+, --, -*-, -*+, -/+, -/-]
+
+[1]: 80.00%
+[J]
+
+[2]: 100.00%
+[]
+
+[3]:  1.00%
+[/, +, *, -, J]
+
+[4]: 11.00%
+[//, /+, */, /-, -+, *-, /*, --, *+]
+
+[5]: 10.00%
+[//, +/, /+, */, /-, *-, /*, -/, --, *+]
+
+[6]: 57.00%
+[*/]
+
+[7]: 100.00%
+[]
+
+[8]: 67.00%
+[-*+, -*-, -/+, -/-]
+
+[9]: 100.00%
+[]
+
+[10]: 19.00%
+[//, */, /*, -+, --, -*-, -*+, -/+, -/-]
+
+[11]: 56.00%
+[/+, /-, *-, *+]
+
+[12]:  7.00%
+[/, +, *, -]
+
+[13]: 12.00%
+[//, */, J, /*, --, -*-, -/-, -*+, -+, -/+]
+
+[14]: 100.00%
+[]
+
+
+[0] TestCase: 208*(6+525+892/557/662)/88+171
+ Correct Answer: Result: 1426
+TestRequirement: [N]/[N]/[N] [N]+[N]+Factor/Term (Expr+Factor) [N]*(Expr+Factor)/[N]+[N]
+
+[1] TestCase: ((443*(542+520-25)+984/884/58/861-695+773*999/390*844-568)*767/974)/335-377/691*663
+ Correct Answer: Result: 5005
+TestRequirement: [N]+[N]-[N] (Expr-Factor) [N]/[N]/[N]/[N] [N]*[N]/[N]*[N] [N]*(Expr-Factor)+Factor/Term-[N]+Factor*Term-[N] (Expr-Factor)*[N]/[N] (Factor/Term)/[N]-Factor*Term
+
+[2] TestCase: (5*(502)/260*203/173-411*668-73/778/305+181/62+344*158)-784/674*531*765
+ Correct Answer: Result: -626399
+TestRequirement: [N]/[N]*[N]*[N] ([N]) [N]/[N]/[N] [N]*([N])/[N]*[N]/[N]-Factor*Term-Factor/Term+Factor/Term+Factor*Term (Expr+Factor)-Factor*Term
+
+[3] TestCase: (661/25-485-858-417/499/972*416*340/269*287+163)*87
+ Correct Answer: Result: -100398
+TestRequirement: [N]/[N]/[N]*[N]*[N]/[N]*[N] [N]/[N]-[N]-[N]-Factor*Term+[N] (Expr+Factor)*[N]
+
+[4] TestCase: 460-626*856/(663*63)/(201+912+407*305)*230-215
+ Correct Answer: Result: 245
+TestRequirement: [N]*[N] (Factor*Term) [N]+[N]+Factor*Term (Expr+Factor) [N]*[N]/(Factor*Term)/(Expr+Factor)*[N] [N]-Factor*Term-[N]
+
+[5] TestCase: 415*(533-351-635/328*445/368+(609/315/344)+565)+317-939
+ Correct Answer: Result: 308968
+TestRequirement: [N]/[N]*[N]/[N] [N]/[N]/[N] (Factor/Term) [N]-[N]-Factor/Term+(Factor/Term)+[N] (Expr+Factor) [N]*(Expr+Factor)+[N]-[N]
+
+[6] TestCase: 432*335*160/(88*632)/34+131+659-902-678+221-559/504+984
+ Correct Answer: Result: 426
+TestRequirement: [N]*[N] (Factor*Term) [N]/[N] [N]*[N]*[N]/(Factor*Term)/[N]+[N]+[N]-[N]-[N]+[N]-Factor/Term+[N]
+
+[7] TestCase: ((239/965/654-782/529)*66/915*386/318*849/297+198)-932*531+545
+ Correct Answer: Result: -494149
+TestRequirement: [N]/[N] [N]/[N]/[N]-Factor/Term (Expr-Factor)*[N]/[N]*[N]/[N]*[N]/[N]+[N] [N]*[N] (Expr+Factor)-Factor*Term+[N]
+
+[8] TestCase: (785-208-527*677/(62+927+993*121*347*675+909)*265/746)+64
+ Correct Answer: Result: 641
+TestRequirement: [N]*[N]*[N]*[N] [N]+[N]+Factor*Term+[N] (Expr+Factor) [N]*[N]/(Expr+Factor)*[N]/[N] [N]-[N]-Factor/Term (Expr-Factor)+[N]
+
+[9] TestCase: ((884*221/753/787)*714/577+892/618-648/640/842*238)*151*670-596*826*834
+ Correct Answer: Result: -410473694
+TestRequirement: [N]*[N]/[N]/[N] [N]/[N]/[N]*[N] (Factor/Term)*[N]/[N]+Factor/Term-Factor*Term [N]*[N]*[N] (Expr-Factor)*[N]*[N]-Factor*Term
+
+[10] TestCase: 215*((572/(77+987+759)/638*240)/886*381+52*114-102)-529
+ Correct Answer: Result: 1252061
+TestRequirement: [N]+[N]+[N] (Expr+Factor) [N]/(Expr+Factor)/[N]*[N] (Factor*Term)/[N]*[N]+Factor*Term-[N] (Expr-Factor) [N]*(Expr-Factor)-[N]
+
+[11] TestCase: 904/809*(936/(181*790+714-545)*202+389)
+ Correct Answer: Result: 389
+TestRequirement: [N]*[N]+[N]-[N] (Expr-Factor) [N]/(Expr-Factor)*[N]+[N] [N]/[N]*(Expr+Factor)
+
+[12] TestCase: ((737+89*(292/531/790)/757+965*574+151*948-17/329)/249/856)*857
+ Correct Answer: Result: 2571
+TestRequirement: [N]/[N]/[N] (Factor/Term) [N]*(Factor/Term)/[N] [N]*[N] [N]+Factor/Term+Factor*Term+Factor*Term-Factor/Term (Expr-Factor)/[N]/[N] (Factor/Term)*[N]
+
+[13] TestCase: 51/369/((34+810*672)-518*715)/336*846+119-510
+ Correct Answer: Result: -391
+TestRequirement: [N]*[N] [N]+Factor*Term (Expr+Factor)-Factor*Term (Expr-Factor) [N]/[N]/(Expr-Factor)/[N]*[N]+[N]-[N]
+
+[14] TestCase: 510/106
+ Correct Answer: Result: 4
+TestRequirement: [N]/[N]
+
+[15] TestCase: 615-175*((120/65)/841)/9/637*173
+ Correct Answer: Result: 615
+TestRequirement: [N]/[N] (Factor/Term)/[N] (Factor/Term) [N]*(Factor/Term)/[N]/[N]*[N] [N]-Factor*Term
+
+[16] TestCase: (558)-733*(14*47/(903)/145)/794+1000*789*85+253-584+559
+ Correct Answer: Result: 67065786
+TestRequirement: [N]*[N]/([N])/[N] ([N]) (Factor/Term) [N]*(Factor/Term)/[N] [N]*[N]*[N] ([N])-Factor/Term+Factor*Term+[N]-[N]+[N]
+
+[17] TestCase: 500*(790+(429)*390-337)/830/207+578-401/762-376+300
+ Correct Answer: Result: 990
+TestRequirement: ([N])*[N] [N]+Factor*Term-[N] (Expr-Factor) [N]/[N] [N]*(Expr-Factor)/[N]/[N]+[N]-Factor/Term-[N]+[N]
+
+[18] TestCase: 66+(252*(180)/518)/572*456-216/208/651*823
+ Correct Answer: Result: 66
+TestRequirement: [N]*([N])/[N] ([N]) (Factor/Term)/[N]*[N] [N]/[N]/[N]*[N] [N]+Factor*Term-Factor*Term
+
+[19] TestCase: 992*155+(935)/842/23*448-(679)
+ Correct Answer: Result: 153081
+TestRequirement: ([N])/[N]/[N]*[N] [N]*[N]+Factor*Term-([N])
+
+[20] TestCase: 5/234/710
+ Correct Answer: Result: 0
+TestRequirement: [N]/[N]/[N]
+
+[21] TestCase: (((57)/717/714+402)*556*568-127*277/22+939*333)*318/599*709
+ Correct Answer: Result: -2145653648
+TestRequirement: ([N])/[N]/[N]+[N] [N]*[N]/[N] (Expr+Factor)*[N]/[N]*[N] (Expr+Factor)*[N]*[N]-Factor/Term+Factor*Term
+
+[22] TestCase: ((482-216/498*386/53-603*654*492)*580*435/469*483/472)+840
+ Correct Answer: Result: 2996154
+TestRequirement: (Expr-Factor)*[N]*[N]/[N]*[N]/[N] [N]*[N]*[N] [N]-Factor/Term-Factor*Term (Factor/Term)+[N]
+
+[23] TestCase: 871
+ Correct Answer: Result: 871
+TestRequirement: [N]
+
+[24] TestCase: 367*((804/(443+674)*209)/246/321*184+233+765-615/67+275-931)+654
+ Correct Answer: Result: 122865
+TestRequirement: [N]+[N] (Expr+Factor) [N]/(Expr+Factor)*[N] [N]/[N] (Factor*Term)/[N]/[N]*[N]+[N]+[N]-Factor/Term+[N]-[N] (Expr-Factor) [N]*(Expr-Factor)+[N]
+
+[25] TestCase: 703/956-(325*89/709*382)*329
+ Correct Answer: Result: -5027120
+TestRequirement: [N]*[N]/[N]*[N] (Factor*Term)*[N] [N]/[N]-Factor*Term
+
+[26] TestCase: 269/111/((750*467)+70*345+164-325+12*314)-356*55
+ Correct Answer: Result: -19580
+TestRequirement: [N]*[N] (Factor*Term)+Factor*Term+[N]-[N]+Factor*Term (Expr+Factor) [N]/[N]/(Expr+Factor)-Factor*Term
+
+[27] TestCase: (23*516*540*582+563*267/72-286)/132/668-669/614
+ Correct Answer: Result: -6409
+TestRequirement: [N]*[N]/[N] [N]*[N]*[N]*[N]+Factor/Term-[N] (Expr-Factor)/[N]/[N]-Factor/Term
+
+[28] TestCase: 871*119+(((529)*253)-731*838/362)*687/310/120-223/770*793
+ Correct Answer: Result: 106089
+TestRequirement: ([N])*[N] [N]*[N]/[N] (Factor*Term)-Factor/Term (Expr-Factor)*[N]/[N]/[N] [N]/[N]*[N] [N]*[N]+Factor/Term-Factor*Term
+
+[29] TestCase: (349/632/854+918/666*564*823)+418-900/280
+ Correct Answer: Result: 464587
+TestRequirement: [N]/[N]*[N]*[N] [N]/[N]/[N]+Factor*Term [N]/[N] (Expr+Factor)+[N]-Factor/Term
+
+[30] TestCase: (449)*900-185*813/(985*63)+889/562
+ Correct Answer: Result: 404099
+TestRequirement: [N]*[N] [N]*[N]/(Factor*Term) [N]/[N] ([N])*[N]-Factor/Term+Factor/Term
+
+[31] TestCase: 630/680+(364/424/867/510/310*795)*563*853/591
+ Correct Answer: Result: 0
+TestRequirement: [N]/[N]/[N]/[N]/[N]*[N] (Factor*Term)*[N]*[N]/[N] [N]/[N]+Factor/Term
+
+[32] TestCase: ((61+23*536/906/686+334)*666*878/825/872/653+176*629*548-244+585*368/219-79)
+ Correct Answer: Result: 60666452
+TestRequirement: [N]*[N]/[N]/[N] [N]+Factor/Term+[N] [N]*[N]*[N] [N]*[N]/[N] (Expr+Factor)*[N]*[N]/[N]/[N]/[N]+Factor*Term-[N]+Factor/Term-[N] (Expr-Factor)
+
+[33] TestCase: 181+786-722/177/(522+170+807*529)*559*82
+ Correct Answer: Result: 967
+TestRequirement: [N]/[N]/(Expr+Factor)*[N]*[N] [N]+[N]+Factor*Term (Expr+Factor) [N]+[N]-Factor*Term
+
+[34] TestCase: (573/(763*805+898*663*265)-93*422+412+518*451+126*720*959*396/257)/727-290/111
+ Correct Answer: Result: 760
+TestRequirement: [N]*[N]*[N] [N]*[N]+Factor*Term (Expr+Factor) [N]*[N]*[N]*[N]/[N] [N]/(Expr+Factor)-Factor*Term+[N]+Factor*Term+Factor/Term (Expr+Factor)/[N]-Factor/Term
+
+[35] TestCase: 243/(89/564)*806
+ Correct Answer: Result: exception
+TestRequirement: [N]/[N] (Factor/Term) [N]/(Factor/Term)*[N]
+
+[36] TestCase: (592/890-236*594-1)*286+874+752*321/728+977/995*733
+ Correct Answer: Result: -40091705
+TestRequirement: [N]/[N]*[N] [N]/[N]-Factor*Term-[N] [N]*[N]/[N] (Expr-Factor)*[N]+[N]+Factor/Term+Factor*Term
+
+[37] TestCase: (((879*409/526)/146+680-504-937*207/294-295/781/690/78*739*328)*916+933/654/347*91*39*699+748/711*444)/44*387*635/987
+ Correct Answer: Result: 1871429
+TestRequirement: (Expr+Factor)/[N]*[N]*[N]/[N] [N]/[N]/[N]/[N]*[N]*[N] (Factor/Term)/[N]+[N]-[N]-Factor/Term-Factor*Term [N]/[N]/[N]*[N]*[N]*[N] [N]/[N]*[N] (Expr-Factor)*[N]+Factor*Term+Factor*Term
+
+[38] TestCase: (288-779*271*740/28*535/881*616+733)/525/458*338
+ Correct Answer: Result: 1287442
+TestRequirement: [N]*[N]*[N]/[N]*[N]/[N]*[N] [N]-Factor*Term+[N] (Expr+Factor)/[N]/[N]*[N]
+
+[39] TestCase: 679/(483*57-654+565)
+ Correct Answer: Result: 0
+TestRequirement: [N]*[N]-[N]+[N] [N]/(Expr+Factor)
+
+[40] TestCase: (((363/212*65/293*196*904)*407*561/780/90+346+271)-379*208*329*121/26*318/200/632-154)
+ Correct Answer: Result: 10454
+TestRequirement: [N]/[N]*[N]/[N]*[N]*[N] (Factor*Term)*[N]*[N]/[N]/[N]+[N]+[N] [N]*[N]*[N]*[N]/[N]*[N]/[N]/[N] (Expr+Factor)-Factor/Term-[N] (Expr-Factor)
+
+[41] TestCase: 228+(((910)-642/190*556)*490/442/405*849/524/660*649+905)-675*70*58+770*386-428*261/751/957
+ Correct Answer: Result: -2442147
+TestRequirement: [N]/[N]*[N] ([N])-Factor*Term (Expr-Factor)*[N]/[N]/[N]*[N]/[N]/[N]*[N]+[N] (Expr+Factor) [N]*[N]*[N] [N]*[N]/[N]/[N] [N]+(Expr+Factor)-Factor*Term+Factor*Term-Factor/Term
+
+[42] TestCase: ((342/681*328/349+538/307*431/559*890-597*414*32*718*526*774/193+885/220-871*637/259/589))+95
+ Correct Answer: Result: 10300790
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]*[N]*[N]*[N]*[N]*[N]/[N] [N]*[N]/[N]/[N] [N]/[N]*[N]/[N]+Factor*Term-Factor/Term+Factor/Term-Factor/Term (Expr-Factor) ((Expr-Factor))+[N]
+
+[43] TestCase: 286*(203/733-432)+541-339
+ Correct Answer: Result: -123350
+TestRequirement: [N]/[N]-[N] (Expr-Factor) [N]*(Expr-Factor)+[N]-[N]
+
+[44] TestCase: (917-(((409*399)/946/400/292/38+549/157*306*939*624*844/445+487)*745*821+23+710*261/743/114)*201/420/707*508+341*649/602)/559*733-244/600
+ Correct Answer: Result: 3634947
+TestRequirement: (Expr+Factor)*[N]/[N]/[N]*[N] [N]/[N]*[N]*[N]*[N]*[N]/[N] (Factor*Term)/[N]/[N]/[N]/[N]+Factor/Term+[N] [N]*[N]/[N]/[N] (Expr+Factor)*[N]*[N]+[N]+Factor/Term [N]-Factor*Term+Factor/Term (Expr+Factor)/[N]*[N]-Factor/Term
+
+[45] TestCase: (186-(78/572-529/776*24*954+900/805*219*969/747+633)*44/215)*708/7-478+800*916*161
+ Correct Answer: Result: 117980221
+TestRequirement: [N]/[N]*[N]*[N] [N]/[N]*[N]*[N]/[N] [N]/[N]-Factor*Term+Factor/Term+[N] (Expr+Factor)*[N]/[N] [N]-Factor/Term (Expr-Factor)*[N]/[N]-[N]+Factor*Term
+
+[46] TestCase: 729+239+118*(((1/7)/382*125-41-220/329)/840-928)
+ Correct Answer: Result: -108536
+TestRequirement: [N]/[N] (Factor/Term)/[N]*[N]-[N]-Factor/Term (Expr-Factor)/[N]-[N] [N]*(Expr-Factor) [N]+[N]+Factor*Term
+
+[47] TestCase: (945-(849*986*516+954/968/833*215+192/44-636*148)+657/837/265*476*200/878/885)/336*44*78/490*479+956-944
+ Correct Answer: Result: -113520114
+TestRequirement: [N]/[N]/[N]*[N] [N]/[N]/[N]*[N]*[N]/[N]/[N] [N]*[N]*[N]+Factor*Term+Factor/Term-Factor*Term (Expr-Factor) [N]-(Expr-Factor)+Factor/Term (Expr+Factor)/[N]*[N]*[N]/[N]*[N]+[N]-[N]
+
+[48] TestCase: (178)/(90/152)*979/939-64+335*70+611-908/211/477
+ Correct Answer: Result: exception
+TestRequirement: [N]/[N]/[N] (Factor/Term) [N]*[N] ([N])/(Factor/Term)*[N]/[N]-[N]+Factor*Term+[N]-Factor/Term
+
+[49] TestCase: ((452-655*275)*679/225)/56*889/203*252*770-49+763
+ Correct Answer: Result: 362639306
+TestRequirement: [N]*[N] [N]-Factor*Term (Expr-Factor)*[N]/[N] (Factor/Term)/[N]*[N]/[N]*[N]*[N]-[N]+[N]
+
+[50] TestCase: (227*591)/400*235/(936*761*324*190/959+339+701-461)+85-999+21
+ Correct Answer: Result: -893
+TestRequirement: [N]*[N] [N]*[N]*[N]*[N]/[N]+[N]+[N]-[N] (Expr-Factor) (Factor*Term)/[N]*[N]/(Expr-Factor)+[N]-[N]+[N]
+
+[51] TestCase: (219/543*899*158*839/785)
+ Correct Answer: Result: 0
+TestRequirement: [N]/[N]*[N]*[N]*[N]/[N] (Factor/Term)
+
+[52] TestCase: ((896*189/856/21*489/127+730*106*737)-893-444/751/93/405*156-124/904*547*60*151+961/36*56+270+761/500/993*981)/446/692
+ Correct Answer: Result: 184
+TestRequirement: [N]/[N]*[N]*[N]*[N] [N]*[N]/[N]/[N]*[N]/[N]+Factor*Term [N]/[N]/[N]/[N]*[N] (Expr+Factor)-[N]-Factor*Term-Factor*Term+Factor*Term+[N]+Factor*Term (Expr+Factor)/[N]/[N]
+
+[53] TestCase: 226-((843/503-835/485*625*644)+989/128/798)*848*558/309/320
+ Correct Answer: Result: 15168
+TestRequirement: [N]/[N]*[N]*[N] [N]/[N]-Factor*Term (Expr+Factor)*[N]*[N]/[N]/[N] (Expr-Factor)+Factor/Term [N]-Factor/Term
+
+[54] TestCase: ((397+315/423*585*360*230-370*336*546/352*388)+32*969+51*918)*866/141/917-888
+ Correct Answer: Result: -3227
+TestRequirement: [N]/[N]*[N]*[N]*[N] [N]*[N]*[N]/[N]*[N] [N]+Factor*Term-Factor*Term (Expr-Factor)+Factor*Term+Factor*Term (Expr+Factor)*[N]/[N]/[N]-[N]
+
+[55] TestCase: 179*380
+ Correct Answer: Result: 68020
+TestRequirement: [N]*[N]
+
+[56] TestCase: 20/(104)-(6*432*648+365/971+70*635)-385
+ Correct Answer: Result: -1724451
+TestRequirement: [N]/[N] ([N]) [N]*[N] [N]*[N]*[N]+Factor/Term+Factor*Term (Expr+Factor) [N]/([N])-(Expr+Factor)-[N]
+
+[57] TestCase: 65-22/569*612
+ Correct Answer: Result: 65
+TestRequirement: [N]/[N]*[N] [N]-Factor*Term
+
+[58] TestCase: (961*808/659/902+192/428+555/48*42/557*127/409*288*568/846+342/533-640)
+ Correct Answer: Result: -639
+TestRequirement: [N]/[N]*[N]/[N]*[N]/[N]*[N]*[N]/[N] [N]*[N]/[N]/[N]+Factor/Term+Factor/Term+Factor/Term-[N] (Expr-Factor)
+
+[59] TestCase: 710+188*811*999/715-218+(990)*(482+(568/(863-61))-229)
+ Correct Answer: Result: 463990
+TestRequirement: [N]*[N]*[N]/[N] [N]-[N] [N]/(Expr-Factor) (Factor/Term) [N]+(Factor/Term)-[N] ([N])*(Expr-Factor) [N]+Factor/Term-[N]+Factor*Term
+
+[60] TestCase: 937*205+548
+ Correct Answer: Result: 192633
+TestRequirement: [N]*[N]+[N]
+
+[61] TestCase: (501)*935/268/563-((199)*604/976+550*681*512-396/248*416/626/208*809+109*689+983/462*639/317)+168*684-634
+ Correct Answer: Result: -191730547
+TestRequirement: [N]*[N]*[N] [N]/[N]*[N]/[N]/[N]*[N] [N]/[N]*[N]/[N] ([N])*[N]/[N]+Factor*Term-Factor*Term+Factor*Term+Factor/Term (Expr+Factor) ([N])*[N]/[N]/[N]-(Expr+Factor)+Factor*Term-[N]
+
+[62] TestCase: (964*402*73/793/959/855)
+ Correct Answer: Result: 0
+TestRequirement: [N]*[N]*[N]/[N]/[N]/[N] (Factor/Term)
+
+[63] TestCase: 955*(839/589-(296+(376/228)*56/529)-986)/951-118+114+959
+ Correct Answer: Result: -331
+TestRequirement: (Factor/Term)*[N]/[N] [N]+Factor/Term (Expr+Factor) [N]/[N]-(Expr+Factor)-[N] (Expr-Factor) [N]*(Expr-Factor)/[N]-[N]+[N]+[N]
+
+[64] TestCase: 980+((795/6)/730*48-163)
+ Correct Answer: Result: 817
+TestRequirement: [N]/[N] (Factor/Term)/[N]*[N]-[N] [N]+(Expr-Factor)
+
+[65] TestCase: 428/606+(826)
+ Correct Answer: Result: 826
+TestRequirement: [N] [N]/[N]+([N])
+
+[66] TestCase: ((820/542/754/867*237*371*271-264)*950)+561/427*751-223+886
+ Correct Answer: Result: -249386
+TestRequirement: [N]/[N]/[N]/[N]*[N]*[N]*[N]-[N] (Expr-Factor)*[N] [N]/[N]*[N] (Factor*Term)+Factor*Term-[N]+[N]
+
+[67] TestCase: 277*((163+152*335/804/648/23/459+831+454/975-104*991*262/801*304+786*55-684/185+971*902/374-474*251/954/286-994))
+ Correct Answer: Result: 1468853744
+TestRequirement: [N]*[N]/[N]/[N]/[N]/[N] [N]*[N]*[N]/[N]*[N] [N]*[N]/[N] [N]*[N]/[N]/[N] [N]+Factor/Term+[N]+Factor/Term-Factor*Term+Factor*Term-Factor/Term+Factor/Term-Factor/Term-[N] (Expr-Factor) [N]*((Expr-Factor))
+
+[68] TestCase: (384/(209*986*870+241+64)-596)-703*330+402-97-210+205+282*891
+ Correct Answer: Result: 18976
+TestRequirement: [N]*[N]*[N]+[N]+[N] (Expr+Factor) [N]/(Expr+Factor)-[N] [N]*[N] (Expr-Factor)-Factor*Term+[N]-[N]-[N]+[N]+Factor*Term
+
+[69] TestCase: (518*684/753*48-633)*58*361+706-884/868*513+491-239/473+596
+ Correct Answer: Result: 459108806
+TestRequirement: [N]*[N]/[N]*[N]-[N] [N]/[N]*[N] [N]/[N] (Expr-Factor)*[N]*[N]+[N]-Factor*Term+[N]-Factor/Term+[N]
+
+[70] TestCase: (833*991/558+877+875)-986/627*(129/227*416/534+54)
+ Correct Answer: Result: 3177
+TestRequirement: [N]*[N]/[N]+[N]+[N] [N]/[N]*[N]/[N]+[N] [N]/[N]*(Expr+Factor) (Expr+Factor)-Factor*Term
+
+[71] TestCase: ((583*109/804/609-771*966*720/65)/742*438-613-717*230)+913/362/336
+ Correct Answer: Result: -5035207
+TestRequirement: [N]*[N]*[N]/[N] [N]*[N]/[N]/[N]-Factor/Term [N]*[N] (Expr-Factor)/[N]*[N]-[N]-Factor*Term [N]/[N]/[N] (Expr-Factor)+Factor/Term
+
+[72] TestCase: (706*352+(87/971/101+151/127*962*382)/660/493*835-148/223/750*574)
+ Correct Answer: Result: 249347
+TestRequirement: [N]/[N]*[N]*[N] [N]/[N]/[N]+Factor*Term (Expr+Factor)/[N]/[N]*[N] [N]/[N]/[N]*[N] [N]*[N]+Factor*Term-Factor*Term (Expr-Factor)
+
+[73] TestCase: 193/(105*981-79*565*778)/428+370-890
+ Correct Answer: Result: -520
+TestRequirement: [N]*[N]*[N] [N]*[N]-Factor*Term (Expr-Factor) [N]/(Expr-Factor)/[N]+[N]-[N]
+
+[74] TestCase: 322/127*988-(430)
+ Correct Answer: Result: 1546
+TestRequirement: [N] [N]/[N]*[N]-([N])
+
+[75] TestCase: ((493*(140)/918-682*124/641/128*750/639)-132/877*262*517+499/643+481*892/663-196/885)+574*737/914
+ Correct Answer: Result: 1183
+TestRequirement: [N]*[N]/[N]/[N]*[N]/[N] ([N]) [N]*([N])/[N]-Factor/Term [N]/[N]*[N]*[N] (Expr-Factor)-Factor*Term+Factor/Term+Factor/Term-Factor/Term (Expr-Factor)+Factor/Term
+
+[76] TestCase: 369/238/18*360-(398*(707+970+21/873)/887*773)*53-3
+ Correct Answer: Result: -30808691
+TestRequirement: [N]/[N] [N]+[N]+Factor/Term (Expr+Factor) [N]*(Expr+Factor)/[N]*[N] (Factor*Term)*[N] [N]/[N]/[N]*[N]-Factor*Term-[N]
+
+[77] TestCase: ((619*227+129/784/490*549/981*547*960+556*32/328/764-611/540-897*535*656/398+229-851*478/704-340-295/478/746/234/524*244*952+647*1/718))/979*476+401
+ Correct Answer: Result: -316139
+TestRequirement: [N]/[N]/[N]*[N]/[N]*[N]*[N] [N]*[N]/[N]/[N] [N]*[N]*[N]/[N] [N]/[N]/[N]/[N]/[N]*[N]*[N] [N]*[N]+Factor*Term+Factor/Term-Factor/Term-Factor/Term+[N]-Factor/Term-[N]-Factor*Term+Factor/Term (Expr+Factor) ((Expr+Factor))/[N]*[N]+[N]
+
+[78] TestCase: 563/382*(960+220)+502
+ Correct Answer: Result: 1682
+TestRequirement: [N]+[N] (Expr+Factor) [N]/[N]*(Expr+Factor)+[N]
+
+[79] TestCase: 558/((634*16+950/353+69*14*953/30*559+398)-254+105+252*740)-957/827
+ Correct Answer: Result: -1
+TestRequirement: [N]/[N] [N]*[N]*[N]/[N]*[N] [N]*[N]+Factor/Term+Factor*Term+[N] (Expr+Factor)-[N]+[N]+Factor*Term (Expr+Factor) [N]/(Expr+Factor)-Factor/Term
+
+[80] TestCase: 554*((559/927*523*800/611/872/290-280/181+607*471*814/359+258-255*599-717/940/25))
+ Correct Answer: Result: 274649378
+TestRequirement: [N]*[N]*[N]/[N] [N]*[N] [N]/[N]/[N] [N]/[N]*[N]*[N]/[N]/[N]/[N]-Factor/Term+Factor/Term+[N]-Factor*Term-Factor/Term (Expr-Factor) [N]*((Expr-Factor))
+
+[81] TestCase: (598*194*649/176/(617+455*899*131+534-444-185+295+966)/236*629+575-162)
+ Correct Answer: Result: 413
+TestRequirement: [N]*[N]*[N] [N]+Factor*Term+[N]-[N]-[N]+[N]+[N] (Expr+Factor) [N]*[N]*[N]/[N]/(Expr+Factor)/[N]*[N]+[N]-[N] (Expr-Factor)
+
+[82] TestCase: ((596*481)*404/753/95)*270*349/214
+ Correct Answer: Result: 712889
+TestRequirement: [N]*[N] (Factor*Term)*[N]/[N]/[N] (Factor/Term)*[N]*[N]/[N]
+
+[83] TestCase: 746/(733*506-(180/436*404+922)*401*432+531+377)
+ Correct Answer: Result: 0
+TestRequirement: [N]/[N]*[N]+[N] (Expr+Factor)*[N]*[N] [N]*[N]-Factor*Term+[N]+[N] [N]/(Expr+Factor)
+
+[84] TestCase: (90*362/224/131)-28+65/100*704
+ Correct Answer: Result: -27
+TestRequirement: [N]*[N]/[N]/[N] [N]/[N]*[N] (Factor/Term)-[N]+Factor*Term
+
+[85] TestCase: 809/115+459/(664/27*(272-465*802+224))*112-869
+ Correct Answer: Result: -862
+TestRequirement: [N]*[N] [N]-Factor*Term+[N] [N]/[N]*(Expr+Factor) (Factor*Term) [N]/(Factor*Term)*[N] [N]/[N]+Factor*Term-[N]
+
+[86] TestCase: (((108/348)/889*188*188/57/411-720*806)-585/728/671*461+635*440+121*165*7/918+214/317/338)-627
+ Correct Answer: Result: -301395
+TestRequirement: [N]*[N]*[N]/[N] [N]/[N]/[N]*[N] (Factor/Term)/[N]*[N]*[N]/[N]/[N]-Factor*Term [N]/[N]/[N] (Expr-Factor)-Factor*Term+Factor*Term+Factor/Term+Factor/Term (Expr+Factor)-[N]
+
+[87] TestCase: 861+((995-252*426/611*167)/869/314)*376/271*867-449-373
+ Correct Answer: Result: 39
+TestRequirement: [N]*[N]/[N]*[N] [N]-Factor*Term (Expr-Factor)/[N]/[N] (Factor/Term)*[N]/[N]*[N] [N]+Factor*Term-[N]-[N]
+
+[88] TestCase: (117*151/107/445/797+435*829*718)-777-936
+ Correct Answer: Result: 258919857
+TestRequirement: [N]*[N]*[N] [N]*[N]/[N]/[N]/[N]+Factor*Term (Expr+Factor)-[N]-[N]
+
+[89] TestCase: (500/135*(298*887*227+198/123-961/814-356+616-350-991)+315+179)
+ Correct Answer: Result: 180003257
+TestRequirement: [N]/[N] [N]*[N]*[N]+Factor/Term-Factor/Term-[N]+[N]-[N]-[N] (Expr-Factor) [N]/[N]*(Expr-Factor)+[N]+[N] (Expr+Factor)
+
+[90] TestCase: (305-(855*68-202/(378*400/921/430*809)*914)+722*899*697-411*298/464/589/445+644*336-900/63*106/243)
+ Correct Answer: Result: exception
+TestRequirement: [N]*[N]/[N]/[N]*[N] (Factor*Term) [N]/(Factor*Term)*[N] [N]*[N]-Factor*Term (Expr-Factor) [N]*[N]*[N] [N]*[N]/[N]/[N]/[N] [N]/[N]*[N]/[N] [N]-(Expr-Factor)+Factor*Term-Factor/Term+Factor*Term-Factor/Term
+
+[91] TestCase: (853+366*385*180*436*259/728)/359*442/804-253
+ Correct Answer: Result: -1432
+TestRequirement: [N]*[N]*[N]*[N]*[N]/[N] [N]+Factor/Term (Expr+Factor)/[N]*[N]/[N]-[N]
+
+[92] TestCase: 231*((25+2-103/566/814/(911+875)*633*616/761*196+457*679-480/952)/437+304-183-601)
+ Correct Answer: Result: 53130
+TestRequirement: [N]+[N] (Expr+Factor) [N]/[N]/[N]/(Expr+Factor)*[N]*[N]/[N]*[N] [N]/[N] [N]+[N]-Factor*Term+Factor*Term-Factor/Term (Expr-Factor)/[N]+[N]-[N]-[N] [N]*(Expr-Factor)
+
+[93] TestCase: 385*(562-594*(109+823/324/535/712-583+259)-828+606)-811/923
+ Correct Answer: Result: 49299250
+TestRequirement: [N]/[N]/[N]/[N] [N]+Factor/Term-[N]+[N] [N]*(Expr+Factor) [N]-Factor*Term-[N]+[N] [N]*(Expr+Factor)-Factor/Term
+
+[94] TestCase: (378/701/332*263/749*136-118+276/117*557/573-732/915)
+ Correct Answer: Result: -117
+TestRequirement: [N]/[N]*[N]/[N] [N]/[N]/[N]*[N]/[N]*[N]-[N]+Factor/Term-Factor/Term (Expr-Factor)
+
+[95] TestCase: ((364*399-578+495-126)/922/643*812)/752-710*315/210*350+700+956*829+546
+ Correct Answer: Result: 421020
+TestRequirement: [N]*[N]-[N]+[N]-[N] (Expr-Factor)/[N]/[N]*[N] [N]*[N]/[N]*[N] (Factor*Term)/[N]-Factor*Term+[N]+Factor*Term+[N]
+
+[96] TestCase: ((458/294/886*870+911/913-150)*413/119)/592*950+644-66*917
+ Correct Answer: Result: -59878
+TestRequirement: (Expr-Factor)*[N]/[N] [N]/[N]/[N]*[N]+Factor/Term-[N] [N]*[N] (Factor/Term)/[N]*[N]+[N]-Factor*Term
+
+[97] TestCase: (307*967*271/755-245/342+357*317*173/406-494/534/679/460-478*317*911-180)*392
+ Correct Answer: Result: 1783425136
+TestRequirement: [N]*[N]*[N]/[N] [N]/[N]/[N]/[N] [N]*[N]*[N] [N]*[N]*[N]/[N]-Factor/Term+Factor/Term-Factor/Term-Factor*Term-[N] (Expr-Factor)*[N]
+
+[98] TestCase: 487/((442)*361*660+257)/759+(732-291+774/82*15-591)
+ Correct Answer: Result: -15
+TestRequirement: ([N])*[N]*[N]+[N] (Expr+Factor) [N]/[N]*[N] [N]-[N]+Factor*Term-[N] [N]/(Expr+Factor)/[N]+(Expr-Factor)
+
+[99] TestCase: (825-975*718/468*200-765*562/890)*916*524*607/959+807/726/999-461*68+692-506/815
+ Correct Answer: Result: 1995520
+TestRequirement: [N]*[N]/[N]*[N] [N]*[N]/[N] [N]-Factor*Term-Factor/Term [N]/[N]/[N] (Expr-Factor)*[N]*[N]*[N]/[N]+Factor/Term-Factor*Term+[N]-Factor/Term
+

@@ -1,0 +1,4 @@
+
+Reduced Requirement in error: (Expr-Factor)*[N]/[N]/[N]-Factor*Term+[N]
+Pattern in error: */
+ r: */

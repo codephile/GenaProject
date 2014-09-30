@@ -1,0 +1,151 @@
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 0 Test Name: AgillespieInfixArith Success: No
+[*/]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 1 Test Name: AshearerInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 2 Test Name: BrothInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 3 Test Name: CfrankInfixArith Success: No
+[/, *, +, -]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 4 Test Name: KcaumeranInfixArith Success: No
+[/*, */]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 5 Test Name: KfloresInfixArith Success: No
+[*/, -/]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 6 Test Name: PkwetebokashangInfixArith Success: No
+[**/]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 7 Test Name: AhazratiInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 8 Test Name: AhclarkeInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 9 Test Name: BalbuloushiInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 10 Test Name: CebiggsInfixArith Success: No
+[*/]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 11 Test Name: GnguyenInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 12 Test Name: MeisnerInfixArith Success: No
+[/, *, +, -]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 13 Test Name: RhuInfixArith Success: No
+[/*, F, I]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 41-(931*(637+326/739*353)*750*923/52)/910
+ Correct Answer: Result: 37658
+TestRequirement: [N]/[N]*[N] [N]+Factor*Term (Expr+Factor) [N]*(Expr+Factor)*[N]*[N]/[N] (Factor/Term)/[N] [N]-Factor/Term
+
+Test Number: 14 Test Name: WfloresInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+

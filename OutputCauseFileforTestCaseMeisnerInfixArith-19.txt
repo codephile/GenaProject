@@ -1,0 +1,71 @@
+
+ Requirement String: [N]*[N]/[N] (Factor/Term) [N]/[N]*(Factor/Term)/[N]*[N]-Factor/Term (Expr-Factor)*[N] (Factor*Term)/[N] [N]+Factor/Term
+
+ String r: [N]*[N]/[N]
+ String r ops: */
+ String r ops substring sr: *
+ String r ops expression e: 446*87
+ String r ops correct answer: 38802
+ Answers Do Not Match
+ String r ops substring sr: /
+ String r ops expression e: 490/129
+ String r ops correct answer: 3
+ Answers Do Not Match
+ String r: (Factor/Term)
+ String r ops: I
+ String r ops substring sr: I
+ String r ops expression e: (52/305)
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r: [N]/[N]*(Factor/Term)/[N]*[N]-Factor/Term
+ String r ops: /*I/*-/
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: I
+ String r ops expression e: (340/301)
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: -
+ String r ops expression e: 160-154
+ String r ops correct answer: 6
+ Answers Do Not Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r: (Expr-Factor)*[N]
+ String r ops: G*
+ String r ops substring sr: G
+ String r ops expression e: (73-147)
+ String r ops answer: -74
+ String r ops correct answer: -74
+ Answers Match
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r: (Factor*Term)/[N]
+ String r ops: H/
+ String r ops substring sr: H
+ String r ops expression e: (279*360)
+ String r ops answer: 100440
+ String r ops correct answer: 100440
+ Answers Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r: [N]+Factor/Term
+ String r ops: +/
+ String r ops substring sr: +
+ String r ops expression e: 78+279
+ String r ops correct answer: 357
+ Answers Do Not Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ r: *
+ r: /
+ r: -
+ r: +

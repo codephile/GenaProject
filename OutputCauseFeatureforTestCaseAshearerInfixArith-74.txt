@@ -1,0 +1,4 @@
+
+Reduced Requirement in error: ([N])+[N]+(Expr+Factor)
+Pattern in error: J
+ r: J

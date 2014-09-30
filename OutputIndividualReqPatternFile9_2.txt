@@ -1,0 +1,34 @@
+
+ String r: (Expr-Factor)+[N]+[N]
+ String r ops: G++
+ String r ops substring sr: G
+ String r ops expression e: (141-138)
+ String r ops answer: 3
+ String r ops correct answer: 3
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 268+298
+ String r ops answer: 566
+ String r ops correct answer: 566
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 316+110
+ String r ops answer: 426
+ String r ops correct answer: 426
+ Answers Match
+ String r ops substring sr: G+
+ String r ops expression e: (23-107)+295
+ String r ops answer: 211
+ String r ops correct answer: 211
+ Answers Match
+ String r ops substring sr: ++
+ String r ops expression e: 143+26+146
+ String r ops answer: 315
+ String r ops correct answer: 315
+ Answers Match
+ String r ops substring sr: G++
+ String r ops expression e: (47-112)+343+140
+ String r ops answer: 418
+ String r ops correct answer: 418
+ Answers Match
+ Causes to Array: No Causes Found

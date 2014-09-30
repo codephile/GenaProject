@@ -1,0 +1,34 @@
+
+ String r: (Expr+Factor)+Factor/Term
+ String r ops: F+/
+ String r ops substring sr: F
+ String r ops expression e: (511+136)
+ String r ops answer: 647
+ String r ops correct answer: 647
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 146+244
+ String r ops answer: 390
+ String r ops correct answer: 390
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 335/314
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: F+
+ String r ops expression e: (149+46)+517
+ String r ops answer: 712
+ String r ops correct answer: 712
+ Answers Match
+ String r ops substring sr: +/
+ String r ops expression e: 478+116/215
+ String r ops answer: 478
+ String r ops correct answer: 478
+ Answers Match
+ String r ops substring sr: F+/
+ String r ops expression e: (238+291)+241/329
+ String r ops answer: 529
+ String r ops correct answer: 529
+ Answers Match
+ Causes to Array: No Causes Found

@@ -1,0 +1,81 @@
+
+ String r: ([N])/[N]*[N]/[N]*[N]/[N]-(Expr+Factor)
+ String r ops: J/*/*/-F
+ String r ops substring sr: J
+ String r ops expression e: (209)
+ String r ops answer: 209
+ String r ops correct answer: 209
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 24/435
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 214*379
+ String r ops answer: 81106
+ String r ops correct answer: 81106
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 188/106
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 427*333
+ String r ops answer: 142191
+ String r ops correct answer: 142191
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 297/92
+ String r ops answer: 3
+ String r ops correct answer: 3
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 206-238
+ String r ops answer: -32
+ String r ops correct answer: -32
+ Answers Match
+ String r ops substring sr: F
+ String r ops expression e: (471+216)
+ String r ops answer: 687
+ String r ops correct answer: 687
+ Answers Match
+ String r ops substring sr: J/
+ String r ops expression e: (451)/465
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /*
+ String r ops expression e: 518/165*130
+ String r ops answer: 0
+ String r ops correct answer: 390
+ Answers Do Not Match
+Reduced Requirement in error: ([N])/[N]*[N]/[N]*[N]/[N]-(Expr+Factor)
+Pattern in error: /*
+ String r ops substring sr: */
+ String r ops expression e: 511*243/212
+ String r ops answer: 511
+ String r ops correct answer: 585
+ Answers Do Not Match
+Reduced Requirement in error: ([N])/[N]*[N]/[N]*[N]/[N]-(Expr+Factor)
+Pattern in error: */
+ String r ops substring sr: /*
+ Answers Do Not Match: Outside Loop
+Reduced Requirement in error: ([N])/[N]*[N]/[N]*[N]/[N]-(Expr+Factor)
+Pattern in error outside loop: /*
+ String r ops substring sr: */
+ Answers Do Not Match: Outside Loop
+Reduced Requirement in error: ([N])/[N]*[N]/[N]*[N]/[N]-(Expr+Factor)
+Pattern in error outside loop: */
+ String r ops substring sr: /-
+ String r ops expression e: 514/359-492
+ String r ops answer: -491
+ String r ops correct answer: -491
+ Answers Match
+ String r ops substring sr: -F
+ String r ops expression e: 319-(200+472)
+ String r ops answer: -353
+ String r ops correct answer: -353
+ Answers Match
+ Causes to Array: [/*, */]

@@ -1,0 +1,151 @@
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 0 Test Name: AgillespieInfixArith Success: No
+[//, --, */, /*]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 1 Test Name: AshearerInfixArith Success: No
+[B]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 2 Test Name: BrothInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 3 Test Name: CfrankInfixArith Success: No
+[/, +, -, *, B]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 4 Test Name: KcaumeranInfixArith Success: No
+[//, /+, /-, --, *-, */]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 5 Test Name: KfloresInfixArith Success: No
+[//, /+, +/, /-, --, -/, *-, */]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 6 Test Name: PkwetebokashangInfixArith Success: No
+[*/]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 7 Test Name: AhazratiInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 8 Test Name: AhclarkeInfixArith Success: No
+[-/-]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 9 Test Name: BalbuloushiInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 10 Test Name: CebiggsInfixArith Success: No
+[//, --, */]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 11 Test Name: GnguyenInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 12 Test Name: MeisnerInfixArith Success: No
+[/, +, -, *]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 13 Test Name: RhuInfixArith Success: No
+[//, --, G, */, /*]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (((866*(925/51+580/351-511-678/772-187)*852-223)/189*266/161+603/765+880+953+286/610/819/263-558*509/963/299*69))+407*744/696-613*640
+ Correct Answer: Result: -4769518
+TestRequirement: [N]/[N]/[N]/[N] [N]/[N]+Factor/Term-[N]-Factor/Term-[N] (Expr-Factor) [N]*(Expr-Factor)*[N]-[N] [N]*[N]/[N]/[N]*[N] (Expr-Factor)/[N]*[N]/[N]+Factor/Term+[N]+[N]+Factor/Term-Factor*Term [N]*[N]/[N] ((Expr-Factor))+Factor/Term-Factor*Term
+
+Test Number: 14 Test Name: WfloresInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+

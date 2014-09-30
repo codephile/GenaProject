@@ -1,0 +1,19 @@
+
+ Requirement String: [N]/[N] [N]+Factor/Term
+
+ String r: [N]/[N]
+ String r ops: /
+ String r ops substring sr: /
+ String r ops expression e: 67/134
+ String r ops correct answer: 0
+ Answers Do Not Match
+ String r: [N]+Factor/Term
+ String r ops: +/
+ String r ops substring sr: +
+ String r ops expression e: 498+81
+ String r ops correct answer: 579
+ Answers Do Not Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ r: /
+ r: +

@@ -1,0 +1,34 @@
+
+ String r: (Expr-Factor)-Factor/Term
+ String r ops: G-/
+ String r ops substring sr: G
+ String r ops expression e: (297-451)
+ String r ops answer: -154
+ String r ops correct answer: -154
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 99-131
+ String r ops answer: -32
+ String r ops correct answer: -32
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 190/297
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: G-
+ String r ops expression e: (324-322)-514
+ String r ops answer: -512
+ String r ops correct answer: -512
+ Answers Match
+ String r ops substring sr: -/
+ String r ops expression e: 204-162/164
+ String r ops answer: 204
+ String r ops correct answer: 204
+ Answers Match
+ String r ops substring sr: G-/
+ String r ops expression e: (278-277)-470/330
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ Causes to Array: No Causes Found

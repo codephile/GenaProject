@@ -1,0 +1,71 @@
+
+ String r: [N]*[N]*[N]/[N]/[N]/[N]*[N]*[N]
+ String r ops: **///**
+ String r ops substring sr: *
+ String r ops expression e: 420*280
+ String r ops answer: 117600
+ String r ops correct answer: 117600
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 406*235
+ String r ops answer: 95410
+ String r ops correct answer: 95410
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 144/466
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 168/226
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 313/131
+ String r ops answer: 2
+ String r ops correct answer: 2
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 146*349
+ String r ops answer: 50954
+ String r ops correct answer: 50954
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 39*460
+ String r ops answer: 17940
+ String r ops correct answer: 17940
+ Answers Match
+ String r ops substring sr: **
+ String r ops expression e: 430*165*391
+ String r ops answer: 27741450
+ String r ops correct answer: 27741450
+ Answers Match
+ String r ops substring sr: */
+ String r ops expression e: 483*448/259
+ String r ops answer: 483
+ String r ops correct answer: 835
+ Answers Do Not Match
+Reduced Requirement in error: [N]*[N]*[N]/[N]/[N]/[N]*[N]*[N]
+Pattern in error: */
+ String r ops substring sr: //
+ String r ops expression e: 194/283/358
+ String r ops correct answer: 0
+ Answers Do Not Match
+Reduced Requirement in error: [N]*[N]*[N]/[N]/[N]/[N]*[N]*[N]
+Pattern in error: //
+ String r ops substring sr: //
+ Answers Do Not Match: Outside Loop
+Reduced Requirement in error: [N]*[N]*[N]/[N]/[N]/[N]*[N]*[N]
+Pattern in error outside loop: //
+ String r ops substring sr: /*
+ String r ops expression e: 331/520*122
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: **
+ String r ops expression e: 147*137*364
+ String r ops answer: 7330596
+ String r ops correct answer: 7330596
+ Answers Match
+ Causes to Array: [*/, //]

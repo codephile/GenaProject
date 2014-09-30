@@ -1,0 +1,62 @@
+
+ Requirement String: ([N])*[N]/[N]*[N]/[N] [N]+Factor/Term+[N]
+
+ String r: ([N])*[N]/[N]*[N]/[N]
+ String r ops: J*/*/
+ String r ops substring sr: J
+ String r ops expression e: (419)
+ String r ops correct answer: 419
+ Answers Do Not Match
+ String r ops substring sr: *
+ String r ops expression e: 303*415
+ String r ops answer: 125745
+ String r ops correct answer: 125745
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 324/318
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 347*84
+ String r ops answer: 29148
+ String r ops correct answer: 29148
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 74/86
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r: [N]+Factor/Term+[N]
+ String r ops: +/+
+ String r ops substring sr: +
+ String r ops expression e: 359+289
+ String r ops answer: 648
+ String r ops correct answer: 648
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 286/315
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 243+448
+ String r ops answer: 691
+ String r ops correct answer: 691
+ Answers Match
+ String r ops substring sr: +/
+ String r ops expression e: 405+116/206
+ String r ops answer: 405
+ String r ops correct answer: 405
+ Answers Match
+ String r ops substring sr: /+
+ String r ops expression e: 364/354+152
+ String r ops answer: 153
+ String r ops correct answer: 153
+ Answers Match
+ String r ops substring sr: +/+
+ String r ops expression e: 245+413/450+490
+ String r ops answer: 735
+ String r ops correct answer: 735
+ Answers Match
+ r: J

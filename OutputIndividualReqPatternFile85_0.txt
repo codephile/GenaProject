@@ -1,0 +1,19 @@
+
+ String r: (Expr+Factor)-[N]
+ String r ops: F-
+ String r ops substring sr: F
+ String r ops expression e: (467+80)
+ String r ops answer: 547
+ String r ops correct answer: 547
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 429-339
+ String r ops answer: 90
+ String r ops correct answer: 90
+ Answers Match
+ String r ops substring sr: F-
+ String r ops expression e: (230+273)-494
+ String r ops answer: 9
+ String r ops correct answer: 9
+ Answers Match
+ Causes to Array: No Causes Found

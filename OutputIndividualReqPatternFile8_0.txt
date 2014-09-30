@@ -1,0 +1,40 @@
+
+ String r: [N]/(Expr-Factor)/[N]/[N]
+ String r ops: /G//
+ String r ops substring sr: /
+ String r ops expression e: 24/214
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: G
+ String r ops expression e: (365-517)
+ String r ops answer: -152
+ String r ops correct answer: -152
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 310/418
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 319/260
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: /G
+ String r ops expression e: 221/(424-437)
+ String r ops answer: -17
+ String r ops correct answer: -17
+ Answers Match
+ String r ops substring sr: G/
+ String r ops expression e: (71-461)/83
+ String r ops answer: -4
+ String r ops correct answer: -4
+ Answers Match
+ String r ops substring sr: //
+ String r ops expression e: 365/122/219
+ String r ops correct answer: 0
+ Answers Do Not Match
+Reduced Requirement in error: [N]/(Expr-Factor)/[N]/[N]
+Pattern in error: //
+ Causes to Array: [//]

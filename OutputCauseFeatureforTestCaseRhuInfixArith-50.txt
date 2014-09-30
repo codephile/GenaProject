@@ -1,0 +1,17 @@
+
+Reduced Requirement in error: [N]*[N]/[N]
+Pattern in error: */
+Reduced Requirement in error: [N]/[N]/[N]/[N]/[N]*[N]
+Pattern in error: //
+Reduced Requirement in error: [N]/[N]/[N]/[N]/[N]*[N]
+Pattern in error outside loop: //
+Reduced Requirement in error: [N]/[N]/[N]/[N]/[N]*[N]
+Pattern in error outside loop: //
+Reduced Requirement in error: (Factor/Term)*[N]*[N]-Factor/Term-Factor*Term+Factor*Term-Factor*Term
+Pattern in error: I
+Reduced Requirement in error: (Expr-Factor)
+Pattern in error: G
+ r: */
+ r: //
+ r: I
+ r: G

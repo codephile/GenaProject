@@ -1,0 +1,10 @@
+
+ String r:  [N]
+ String r ops:  
+ String r ops substring sr:  
+ String r ops expression e: 388 441
+ String r ops answer: 3879441
+ Answers Do Not Match
+Reduced Requirement in error:  [N]
+Pattern in error:  
+ Causes to Array: [ ]

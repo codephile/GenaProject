@@ -1,0 +1,34 @@
+
+ String r: (Factor*Term)+Factor*Term
+ String r ops: H+*
+ String r ops substring sr: H
+ String r ops expression e: (43*24)
+ String r ops answer: 1032
+ String r ops correct answer: 1032
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 137+299
+ String r ops answer: 436
+ String r ops correct answer: 436
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 139*474
+ String r ops answer: 65886
+ String r ops correct answer: 65886
+ Answers Match
+ String r ops substring sr: H+
+ String r ops expression e: (332*482)+99
+ String r ops answer: 160123
+ String r ops correct answer: 160123
+ Answers Match
+ String r ops substring sr: +*
+ String r ops expression e: 427+193*373
+ String r ops answer: 72416
+ String r ops correct answer: 72416
+ Answers Match
+ String r ops substring sr: H+*
+ String r ops expression e: (362*23)+51*226
+ String r ops answer: 19852
+ String r ops correct answer: 19852
+ Answers Match
+ Causes to Array: No Causes Found

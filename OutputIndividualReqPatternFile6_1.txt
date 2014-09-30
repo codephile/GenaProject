@@ -1,0 +1,21 @@
+
+ String r: [N]/[N]*[N]
+ String r ops: /*
+ String r ops substring sr: /
+ String r ops expression e: 408/180
+ String r ops answer: 2
+ String r ops correct answer: 2
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 131*189
+ String r ops answer: 24759
+ String r ops correct answer: 24759
+ Answers Match
+ String r ops substring sr: /*
+ String r ops expression e: 162/109*328
+ String r ops answer: 0
+ String r ops correct answer: 328
+ Answers Do Not Match
+Reduced Requirement in error: [N]/[N]*[N]
+Pattern in error: /*
+ Causes to Array: [/*]

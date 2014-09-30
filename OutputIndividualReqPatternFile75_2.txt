@@ -1,0 +1,43 @@
+
+ String r: (Expr+Factor)-[N]-[N]+[N]
+ String r ops: F--+
+ String r ops substring sr: F
+ String r ops expression e: (42+44)
+ String r ops answer: 86
+ String r ops correct answer: 86
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 123-370
+ String r ops answer: -247
+ String r ops correct answer: -247
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 172-208
+ String r ops answer: -36
+ String r ops correct answer: -36
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 118+118
+ String r ops answer: 236
+ String r ops correct answer: 236
+ Answers Match
+ String r ops substring sr: F-
+ String r ops expression e: (458+455)-356
+ String r ops answer: 557
+ String r ops correct answer: 557
+ Answers Match
+ String r ops substring sr: --
+ String r ops expression e: 217-332-329
+ String r ops answer: 214
+ String r ops correct answer: -444
+ Answers Do Not Match
+Reduced Requirement in error: (Expr+Factor)-[N]-[N]+[N]
+Pattern in error: --
+ String r ops substring sr: -+
+ String r ops expression e: 450-82+108
+ String r ops answer: 260
+ String r ops correct answer: 476
+ Answers Do Not Match
+Reduced Requirement in error: (Expr+Factor)-[N]-[N]+[N]
+Pattern in error: -+
+ Causes to Array: [--, -+]

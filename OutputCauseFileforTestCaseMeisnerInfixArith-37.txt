@@ -1,0 +1,96 @@
+
+ Requirement String: [N]/[N]/[N]*[N] (Factor*Term)/[N]*[N] [N]*[N]+Factor*Term [N]/[N]*[N]*[N]/[N]*[N]/[N] (Expr+Factor)/[N]*[N]/[N]*[N]-Factor*Term-[N]+Factor/Term-Factor*Term+Factor*Term (Expr+Factor)
+
+ String r: [N]/[N]/[N]*[N]
+ String r ops: //*
+ String r ops substring sr: /
+ String r ops expression e: 492/98
+ String r ops correct answer: 5
+ Answers Do Not Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ String r ops expression e: 110*515
+ String r ops correct answer: 56650
+ Answers Do Not Match
+ String r: (Factor*Term)/[N]*[N]
+ String r ops: H/*
+ String r ops substring sr: H
+ String r ops expression e: (450*359)
+ String r ops answer: 161550
+ String r ops correct answer: 161550
+ Answers Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r: [N]*[N]+Factor*Term
+ String r ops: *+*
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: +
+ String r ops expression e: 283+392
+ String r ops correct answer: 675
+ Answers Do Not Match
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r: [N]/[N]*[N]*[N]/[N]*[N]/[N]
+ String r ops: /**/*/
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r: (Expr+Factor)/[N]*[N]/[N]*[N]-Factor*Term-[N]+Factor/Term-Factor*Term+Factor*Term
+ String r ops: F/*/*-*-+/-*+*
+ String r ops substring sr: F
+ String r ops expression e: (453+159)
+ String r ops answer: 612
+ String r ops correct answer: 612
+ Answers Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: -
+ String r ops expression e: 231-262
+ String r ops correct answer: -31
+ Answers Do Not Match
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: -
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: +
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: -
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: +
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ Answers Do Not Match: Outside Loop
+ String r: (Expr+Factor)
+ String r ops: F
+ String r ops substring sr: F
+ String r ops expression e: (98+272)
+ String r ops answer: 370
+ String r ops correct answer: 370
+ Answers Match
+ r: /
+ r: *
+ r: +
+ r: -

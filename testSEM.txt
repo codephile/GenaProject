@@ -1,0 +1,10 @@
+Expr ::= Factor @@ (Factor)
+Expr ::= Expr + Factor @@ (intAdd Expr Factor)
+Expr ::= Expr - Factor @@ (intSub Expr Factor)
+Factor ::= Term @@ (Term)
+Factor ::= Factor * Term @@ (intMul Factor Term)
+Factor ::= Factor / Term @@ (intDiv Factor Term)
+Term ::= ( Expr ) @@ (Expr)
+Term ::= [N]
+[N] ::= 1..1000
+

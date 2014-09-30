@@ -1,0 +1,272 @@
+
+ Requirement String: [N]*[N]/[N]/[N] [N]*[N]/[N]/[N]*[N]*[N] [N]-Factor/Term-Factor*Term-Factor*Term (Expr-Factor)-Factor/Term (Expr-Factor)/[N]/[N] [N]+Factor/Term
+
+ String r: [N]*[N]/[N]/[N]
+ String r ops: *//
+ String r ops substring sr: *
+ String r ops expression e: 338*156
+ String r ops answer: 52728
+ String r ops correct answer: 52728
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 502/303
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 128/115
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: */
+ String r ops expression e: 262*110/281
+ String r ops answer: 102
+ String r ops correct answer: 102
+ Answers Match
+ String r ops substring sr: //
+ String r ops expression e: 71/423/304
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: *//
+ String r ops expression e: 464*334/267/454
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r: [N]*[N]/[N]/[N]*[N]*[N]
+ String r ops: *//**
+ String r ops substring sr: *
+ String r ops expression e: 423*119
+ String r ops answer: 50337
+ String r ops correct answer: 50337
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 428/322
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 488/314
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 111*47
+ String r ops answer: 5217
+ String r ops correct answer: 5217
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 43*366
+ String r ops answer: 15738
+ String r ops correct answer: 15738
+ Answers Match
+ String r ops substring sr: */
+ String r ops expression e: 501*169/220
+ String r ops answer: 384
+ String r ops correct answer: 384
+ Answers Match
+ String r ops substring sr: //
+ String r ops expression e: 402/318/360
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /*
+ String r ops expression e: 487/189*188
+ String r ops answer: 376
+ String r ops correct answer: 376
+ Answers Match
+ String r ops substring sr: **
+ String r ops expression e: 74*464*447
+ String r ops answer: 15348192
+ String r ops correct answer: 15348192
+ Answers Match
+ String r ops substring sr: *//
+ String r ops expression e: 332*416/372/419
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: //*
+ String r ops expression e: 422/344/327*428
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /**
+ String r ops expression e: 431/293*440*427
+ String r ops answer: 187880
+ String r ops correct answer: 187880
+ Answers Match
+ String r ops substring sr: *//*
+ String r ops expression e: 343*517/135/300*201
+ String r ops answer: 804
+ String r ops correct answer: 804
+ Answers Match
+ String r ops substring sr: //**
+ String r ops expression e: 336/482/348*155*103
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: *//**
+ String r ops expression e: 496*45/464/477*361*241
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r: [N]-Factor/Term-Factor*Term-Factor*Term
+ String r ops: -/-*-*
+ String r ops substring sr: -
+ String r ops expression e: 238-132
+ String r ops answer: 106
+ String r ops correct answer: 106
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 341/48
+ String r ops answer: 7
+ String r ops correct answer: 7
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 149-217
+ String r ops answer: -68
+ String r ops correct answer: -68
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 329*123
+ String r ops answer: 40467
+ String r ops correct answer: 40467
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 327-335
+ String r ops answer: -8
+ String r ops correct answer: -8
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 441*51
+ String r ops answer: 22491
+ String r ops correct answer: 22491
+ Answers Match
+ String r ops substring sr: -/
+ String r ops expression e: 267-377/387
+ String r ops answer: 267
+ String r ops correct answer: 267
+ Answers Match
+ String r ops substring sr: /-
+ String r ops expression e: 422/211-428
+ String r ops answer: -426
+ String r ops correct answer: -426
+ Answers Match
+ String r ops substring sr: -*
+ String r ops expression e: 485-39*229
+ String r ops answer: -8446
+ String r ops correct answer: -8446
+ Answers Match
+ String r ops substring sr: *-
+ String r ops expression e: 434*147-54
+ String r ops answer: 63744
+ String r ops correct answer: 63744
+ Answers Match
+ String r ops substring sr: -*
+ String r ops expression e: 23-91*471
+ String r ops answer: -42838
+ String r ops correct answer: -42838
+ Answers Match
+ String r ops substring sr: -/-
+ String r ops expression e: 62-400/317-200
+ String r ops answer: 261
+ String r ops correct answer: -139
+ Answers Do Not Match
+ String r ops substring sr: /-*
+ String r ops expression e: 401/307-337*233
+ String r ops answer: -78520
+ String r ops correct answer: -78520
+ Answers Match
+ String r ops substring sr: -*-
+ String r ops expression e: 118-398*198-190
+ String r ops answer: -78496
+ String r ops correct answer: -78876
+ Answers Do Not Match
+ String r ops substring sr: *-*
+ String r ops expression e: 142*212-138*115
+ String r ops answer: 14234
+ String r ops correct answer: 14234
+ Answers Match
+ String r: (Expr-Factor)-Factor/Term
+ String r ops: G-/
+ String r ops substring sr: G
+ String r ops expression e: (322-279)
+ String r ops answer: 43
+ String r ops correct answer: 43
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 424-349
+ String r ops answer: 75
+ String r ops correct answer: 75
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 493/225
+ String r ops answer: 2
+ String r ops correct answer: 2
+ Answers Match
+ String r ops substring sr: G-
+ String r ops expression e: (240-366)-250
+ String r ops answer: -376
+ String r ops correct answer: -376
+ Answers Match
+ String r ops substring sr: -/
+ String r ops expression e: 348-375/446
+ String r ops answer: 348
+ String r ops correct answer: 348
+ Answers Match
+ String r ops substring sr: G-/
+ String r ops expression e: (20-42)-277/512
+ String r ops answer: -22
+ String r ops correct answer: -22
+ Answers Match
+ String r: (Expr-Factor)/[N]/[N]
+ String r ops: G//
+ String r ops substring sr: G
+ String r ops expression e: (439-509)
+ String r ops answer: -70
+ String r ops correct answer: -70
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 134/159
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 362/265
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: G/
+ String r ops expression e: (384-31)/172
+ String r ops answer: 2
+ String r ops correct answer: 2
+ Answers Match
+ String r ops substring sr: //
+ String r ops expression e: 142/506/58
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: G//
+ String r ops expression e: (259-245)/159/336
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r: [N]+Factor/Term
+ String r ops: +/
+ String r ops substring sr: +
+ String r ops expression e: 282+146
+ String r ops answer: 428
+ String r ops correct answer: 428
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 32/479
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: +/
+ String r ops expression e: 473+21/424
+ String r ops answer: 473
+ String r ops correct answer: 473
+ Answers Match
+ r: -/-
+ r: -*-

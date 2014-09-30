@@ -1,0 +1,9 @@
+
+ String r: [N]*[N]
+ String r ops: *
+ String r ops substring sr: *
+ String r ops expression e: 126*312
+ String r ops answer: 39312
+ String r ops correct answer: 39312
+ Answers Match
+ Causes to Array: No Causes Found

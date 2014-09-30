@@ -1,0 +1,31 @@
+
+ Requirement String: [N]/[N]/[N]*[N]+[N] (Expr+Factor)/[N]
+
+ String r: [N]/[N]/[N]*[N]+[N]
+ String r ops: //*+
+ String r ops substring sr: /
+ String r ops expression e: 225/246
+ String r ops correct answer: 0
+ Answers Do Not Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ String r ops expression e: 319*73
+ String r ops correct answer: 23287
+ Answers Do Not Match
+ String r ops substring sr: +
+ String r ops expression e: 188+509
+ String r ops correct answer: 697
+ Answers Do Not Match
+ String r: (Expr+Factor)/[N]
+ String r ops: F/
+ String r ops substring sr: F
+ String r ops expression e: (440+150)
+ String r ops answer: 590
+ String r ops correct answer: 590
+ Answers Match
+ String r ops substring sr: /
+ Answers Do Not Match: Outside Loop
+ r: /
+ r: *
+ r: +

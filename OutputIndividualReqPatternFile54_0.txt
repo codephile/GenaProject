@@ -1,0 +1,54 @@
+
+ String r: (Expr+Factor)*[N]-Factor/Term
+ String r ops: F*-/
+ String r ops substring sr: F
+ String r ops expression e: (374+369)
+ String r ops answer: 743
+ String r ops correct answer: 743
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 43*474
+ String r ops answer: 20382
+ String r ops correct answer: 20382
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 389-178
+ String r ops answer: 211
+ String r ops correct answer: 211
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 185/48
+ String r ops answer: 3
+ String r ops correct answer: 3
+ Answers Match
+ String r ops substring sr: F*
+ String r ops expression e: (504+96)*400
+ String r ops answer: 240000
+ String r ops correct answer: 240000
+ Answers Match
+ String r ops substring sr: *-
+ String r ops expression e: 281*357-113
+ String r ops answer: 100204
+ String r ops correct answer: 100204
+ Answers Match
+ String r ops substring sr: -/
+ String r ops expression e: 83-473/231
+ String r ops answer: 81
+ String r ops correct answer: 81
+ Answers Match
+ String r ops substring sr: F*-
+ String r ops expression e: (240+399)*322-315
+ String r ops answer: 205443
+ String r ops correct answer: 205443
+ Answers Match
+ String r ops substring sr: *-/
+ String r ops expression e: 437*196-28/274
+ String r ops answer: 85652
+ String r ops correct answer: 85652
+ Answers Match
+ String r ops substring sr: F*-/
+ String r ops expression e: (290+298)*166-46/491
+ String r ops answer: 97608
+ String r ops correct answer: 97608
+ Answers Match
+ Causes to Array: No Causes Found

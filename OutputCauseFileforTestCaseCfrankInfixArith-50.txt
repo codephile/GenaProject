@@ -1,0 +1,11 @@
+
+ Requirement String: [N]*[N]
+
+ String r: [N]*[N]
+ String r ops: *
+ String r ops substring sr: *
+ String r ops expression e: 501*469
+ String r ops answer: 9
+ String r ops correct answer: 234969
+ Answers Do Not Match
+ r: *

@@ -1,0 +1,1384 @@
+
+ Requirement String: Expr#0+Factor#1+Factor#0+Term#0+ Expr#1+Expr#1+Expr#0+Factor#1+Factor#0+Term#1+ Factor#2+Factor#0+Term#0+ Expr#0+Factor#0+Term#1+ Factor#2+Factor#2+Factor#0+Term#1+
+
+ String r: Expr#0+Factor#1+Factor#0+Term#0+
+ String r ops: #0+#1+#0+#0+
+ String r ops substring sr: #
+ String r ops expression e: 66#497
+ Answers Match
+ String r ops substring sr: 0
+ String r ops expression e: 316050
+ String r ops answer: 316050
+ String r ops correct answer: 316050
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 322+43
+ String r ops answer: 365
+ String r ops correct answer: 365
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 89#207
+ Answers Match
+ String r ops substring sr: 1
+ String r ops expression e: 4841370
+ String r ops answer: 4841370
+ String r ops correct answer: 4841370
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 101+282
+ String r ops answer: 383
+ String r ops correct answer: 383
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 265#271
+ Answers Match
+ String r ops substring sr: 0
+ String r ops expression e: 750481
+ String r ops answer: 750481
+ String r ops correct answer: 750481
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 124+486
+ String r ops answer: 610
+ String r ops correct answer: 610
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 448#339
+ Answers Match
+ String r ops substring sr: 0
+ String r ops expression e: 3530137
+ String r ops answer: 3530137
+ String r ops correct answer: 3530137
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 125+493
+ String r ops answer: 618
+ String r ops correct answer: 618
+ Answers Match
+ String r ops substring sr: #0
+ String r ops expression e: 63#3790415
+ Answers Match
+ String r ops substring sr: 0+
+ String r ops expression e: 4590367+68
+ String r ops answer: 4590435
+ String r ops correct answer: 4590435
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 350+519#164
+ Answers Match
+ String r ops substring sr: #1
+ String r ops expression e: 201#781205
+ Answers Match
+ String r ops substring sr: 1+
+ String r ops expression e: 3411249+490
+ String r ops answer: 3411739
+ String r ops correct answer: 3411739
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 417+470#381
+ Answers Match
+ String r ops substring sr: #0
+ String r ops expression e: 377#4640141
+ Answers Match
+ String r ops substring sr: 0+
+ String r ops expression e: 358087+292
+ String r ops answer: 358379
+ String r ops correct answer: 358379
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 481+129#387
+ Answers Match
+ String r ops substring sr: #0
+ String r ops expression e: 323#1400367
+ Answers Match
+ String r ops substring sr: 0+
+ String r ops expression e: 990196+106
+ String r ops answer: 990302
+ String r ops correct answer: 990302
+ Answers Match
+ String r ops substring sr: #0+
+ String r ops expression e: 362#4680284+56
+ Answers Match
+ String r ops substring sr: 0+#
+ String r ops expression e: 2570227+126#213
+ Answers Match
+ String r ops substring sr: +#1
+ String r ops expression e: 221+371#3991208
+ Answers Match
+ String r ops substring sr: #1+
+ String r ops expression e: 154#3391229+298
+ Answers Match
+ String r ops substring sr: 1+#
+ String r ops expression e: 4781476+42#33
+ Answers Match
+ String r ops substring sr: +#0
+ String r ops expression e: 512+496#2250464
+ Answers Match
+ String r ops substring sr: #0+
+ String r ops expression e: 294#5150160+343
+ Answers Match
+ String r ops substring sr: 0+#
+ String r ops expression e: 620214+220#484
+ Answers Match
+ String r ops substring sr: +#0
+ String r ops expression e: 346+194#4550421
+ Answers Match
+ String r ops substring sr: #0+
+ String r ops expression e: 427#2330165+373
+ Answers Match
+ String r ops substring sr: #0+#
+ String r ops expression e: 36#322098+199#372
+ Answers Match
+ String r ops substring sr: 0+#1
+ String r ops expression e: 1620369+497#711107
+ Answers Match
+ String r ops substring sr: +#1+
+ String r ops expression e: 175+356#325121+96
+ Answers Match
+ String r ops substring sr: #1+#
+ String r ops expression e: 409#3561473+218#322
+ Answers Match
+ String r ops substring sr: 1+#0
+ String r ops expression e: 3981313+386#1730245
+ Answers Match
+ String r ops substring sr: +#0+
+ String r ops expression e: 324+266#2890299+377
+ Answers Match
+ String r ops substring sr: #0+#
+ String r ops expression e: 384#1200348+343#59
+ Answers Match
+ String r ops substring sr: 0+#0
+ String r ops expression e: 4640100+424#75056
+ Answers Match
+ String r ops substring sr: +#0+
+ String r ops expression e: 180+507#700403+510
+ Answers Match
+ String r ops substring sr: #0+#1
+ String r ops expression e: 245#4510101+104#1521213
+ Answers Match
+ String r ops substring sr: 0+#1+
+ String r ops expression e: 4230374+245#2491441+113
+ Answers Match
+ String r ops substring sr: +#1+#
+ String r ops expression e: 37+200#1811275+50#64
+ Answers Match
+ String r ops substring sr: #1+#0
+ String r ops expression e: 420#1291468+111#1550247
+ Answers Match
+ String r ops substring sr: 1+#0+
+ String r ops expression e: 721203+500#1460186+424
+ Answers Match
+ String r ops substring sr: +#0+#
+ String r ops expression e: 380+189#570325+263#114
+ Answers Match
+ String r ops substring sr: #0+#0
+ String r ops expression e: 344#3100417+250#223022
+ Answers Match
+ String r ops substring sr: 0+#0+
+ String r ops expression e: 2480161+518#1810153+46
+ Answers Match
+ String r ops substring sr: #0+#1+
+ String r ops expression e: 284#97032+304#315155+177
+ Answers Match
+ String r ops substring sr: 0+#1+#
+ String r ops expression e: 1940203+457#991466+297#482
+ Answers Match
+ String r ops substring sr: +#1+#0
+ String r ops expression e: 65+299#2271138+167#2340517
+ Answers Match
+ String r ops substring sr: #1+#0+
+ String r ops expression e: 333#631122+298#1180257+413
+ Answers Match
+ String r ops substring sr: 1+#0+#
+ String r ops expression e: 1361447+273#3100137+181#425
+ Answers Match
+ String r ops substring sr: +#0+#0
+ String r ops expression e: 51+177#200068+173#3510251
+ Answers Match
+ String r ops substring sr: #0+#0+
+ String r ops expression e: 196#2530131+225#900138+105
+ Answers Match
+ String r ops substring sr: #0+#1+#
+ String r ops expression e: 205#3700204+216#1101301+111#467
+ Answers Match
+ String r ops substring sr: 0+#1+#0
+ String r ops expression e: 3240480+466#255148+214#1260205
+ Answers Match
+ String r ops substring sr: +#1+#0+
+ String r ops expression e: 156+333#2291232+511#4980274+406
+ Answers Match
+ String r ops substring sr: #1+#0+#
+ String r ops expression e: 193#1651318+233#1780348+22#442
+ Answers Match
+ String r ops substring sr: 1+#0+#0
+ String r ops expression e: 374177+393#880442+66#1830401
+ Answers Match
+ String r ops substring sr: +#0+#0+
+ String r ops expression e: 91+47#3980166+471#4760390+257
+ Answers Match
+ String r ops substring sr: #0+#1+#0
+ String r ops expression e: 449#4290435+384#3961400+75#1580186
+ Answers Match
+ String r ops substring sr: 0+#1+#0+
+ String r ops expression e: 4890382+150#349134+73#3380294+127
+ Answers Match
+ String r ops substring sr: +#1+#0+#
+ String r ops expression e: 168+35#1921226+94#2960462+96#281
+ Answers Match
+ String r ops substring sr: #1+#0+#0
+ String r ops expression e: 141#3851235+431#4920151+123#1780228
+ Answers Match
+ String r ops substring sr: 1+#0+#0+
+ String r ops expression e: 1041219+402#4570170+468#4090303+290
+ Answers Match
+ String r ops substring sr: #0+#1+#0+
+ String r ops expression e: 295#1350315+301#1051383+489#5030148+458
+ Answers Match
+ String r ops substring sr: 0+#1+#0+#
+ String r ops expression e: 3570109+296#3361119+519#3070241+429#222
+ Answers Match
+ String r ops substring sr: +#1+#0+#0
+ String r ops expression e: 483+186#1321259+294#2060512+472#47067
+ Answers Match
+ String r ops substring sr: #1+#0+#0+
+ String r ops expression e: 475#2791518+309#5150436+80#4940312+145
+ Answers Match
+ String r ops substring sr: #0+#1+#0+#
+ String r ops expression e: 391#4400400+512#4841199+509#1560253+319#414
+ Answers Match
+ String r ops substring sr: 0+#1+#0+#0
+ String r ops expression e: 3160293+329#4581514+354#730303+293#2750309
+ Answers Match
+ String r ops substring sr: +#1+#0+#0+
+ String r ops expression e: 436+138#2401116+23#780465+301#3220474+516
+ Answers Match
+ String r ops substring sr: #0+#1+#0+#0
+ String r ops expression e: 79#800247+438#3191127+262#920155+257#2320218
+ Answers Match
+ String r ops substring sr: 0+#1+#0+#0+
+ String r ops expression e: 1790395+331#1531352+123#3160381+88#1840161+179
+ Answers Match
+ String r ops substring sr: #0+#1+#0+#0+
+ String r ops expression e: 284#3130215+504#3151446+32#280225+244#4090268+484
+ Answers Match
+ String r: Expr#1+Expr#1+Expr#0+Factor#1+Factor#0+Term#1+
+ String r ops: #1+#1+#0+#1+#0+#1+
+ String r ops substring sr: #
+ String r ops expression e: 250#229
+ Answers Match
+ String r ops substring sr: 1
+ String r ops expression e: 1551319
+ String r ops answer: 1551319
+ String r ops correct answer: 1551319
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 491+491
+ String r ops answer: 982
+ String r ops correct answer: 982
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 110#181
+ Answers Match
+ String r ops substring sr: 1
+ String r ops expression e: 4251383
+ String r ops answer: 4251383
+ String r ops correct answer: 4251383
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 215+413
+ String r ops answer: 628
+ String r ops correct answer: 628
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 244#437
+ Answers Match
+ String r ops substring sr: 0
+ String r ops expression e: 4840186
+ String r ops answer: 4840186
+ String r ops correct answer: 4840186
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 319+182
+ String r ops answer: 501
+ String r ops correct answer: 501
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 392#161
+ Answers Match
+ String r ops substring sr: 1
+ String r ops expression e: 3241328
+ String r ops answer: 3241328
+ String r ops correct answer: 3241328
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 385+245
+ String r ops answer: 630
+ String r ops correct answer: 630
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 492#259
+ Answers Match
+ String r ops substring sr: 0
+ String r ops expression e: 4430114
+ String r ops answer: 4430114
+ String r ops correct answer: 4430114
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 414+161
+ String r ops answer: 575
+ String r ops correct answer: 575
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 433#462
+ Answers Match
+ String r ops substring sr: 1
+ String r ops expression e: 2951251
+ String r ops answer: 2951251
+ String r ops correct answer: 2951251
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 50+197
+ String r ops answer: 247
+ String r ops correct answer: 247
+ Answers Match
+ String r ops substring sr: #1
+ String r ops expression e: 258#381427
+ Answers Match
+ String r ops substring sr: 1+
+ String r ops expression e: 4641409+89
+ String r ops answer: 4641498
+ String r ops correct answer: 4641498
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 218+31#213
+ Answers Match
+ String r ops substring sr: #1
+ String r ops expression e: 124#4221176
+ Answers Match
+ String r ops substring sr: 1+
+ String r ops expression e: 341257+62
+ String r ops answer: 341319
+ String r ops correct answer: 341319
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 253+153#406
+ Answers Match
+ String r ops substring sr: #0
+ String r ops expression e: 478#118054
+ Answers Match
+ String r ops substring sr: 0+
+ String r ops expression e: 3380474+58
+ String r ops answer: 3380532
+ String r ops correct answer: 3380532
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 386+398#387
+ Answers Match
+ String r ops substring sr: #1
+ String r ops expression e: 277#1351324
+ Answers Match
+ String r ops substring sr: 1+
+ String r ops expression e: 2601332+319
+ String r ops answer: 2601651
+ String r ops correct answer: 2601651
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 69+288#261
+ Answers Match
+ String r ops substring sr: #0
+ String r ops expression e: 304#2630491
+ Answers Match
+ String r ops substring sr: 0+
+ String r ops expression e: 3860260+402
+ String r ops answer: 3860662
+ String r ops correct answer: 3860662
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 205+509#234
+ Answers Match
+ String r ops substring sr: #1
+ String r ops expression e: 476#4051389
+ Answers Match
+ String r ops substring sr: 1+
+ String r ops expression e: 383190+191
+ String r ops answer: 383381
+ String r ops correct answer: 383381
+ Answers Match
+ String r ops substring sr: #1+
+ String r ops expression e: 515#361162+349
+ Answers Match
+ String r ops substring sr: 1+#
+ String r ops expression e: 2661466+47#344
+ Answers Match
+ String r ops substring sr: +#1
+ String r ops expression e: 106+23#3671366
+ Answers Match
+ String r ops substring sr: #1+
+ String r ops expression e: 407#1891483+141
+ Answers Match
+ String r ops substring sr: 1+#
+ String r ops expression e: 4701499+399#146
+ Answers Match
+ String r ops substring sr: +#0
+ String r ops expression e: 200+350#4550101
+ Answers Match
+ String r ops substring sr: #0+
+ String r ops expression e: 217#2850400+203
+ Answers Match
+ String r ops substring sr: 0+#
+ String r ops expression e: 503027+430#464
+ Answers Match
+ String r ops substring sr: +#1
+ String r ops expression e: 441+302#4251251
+ Answers Match
+ String r ops substring sr: #1+
+ String r ops expression e: 287#3151488+175
+ Answers Match
+ String r ops substring sr: 1+#
+ String r ops expression e: 2991153+473#392
+ Answers Match
+ String r ops substring sr: +#0
+ String r ops expression e: 337+398#454070
+ Answers Match
+ String r ops substring sr: #0+
+ String r ops expression e: 325#277071+327
+ Answers Match
+ String r ops substring sr: 0+#
+ String r ops expression e: 4920340+365#335
+ Answers Match
+ String r ops substring sr: +#1
+ String r ops expression e: 254+379#1201463
+ Answers Match
+ String r ops substring sr: #1+
+ String r ops expression e: 50#1031279+378
+ Answers Match
+ String r ops substring sr: #1+#
+ String r ops expression e: 314#4531340+381#79
+ Answers Match
+ String r ops substring sr: 1+#1
+ String r ops expression e: 435193+420#271340
+ Answers Match
+ String r ops substring sr: +#1+
+ String r ops expression e: 279+275#5021375+142
+ Answers Match
+ String r ops substring sr: #1+#
+ String r ops expression e: 211#2061407+467#89
+ Answers Match
+ String r ops substring sr: 1+#0
+ String r ops expression e: 4571275+469#4260451
+ Answers Match
+ String r ops substring sr: +#0+
+ String r ops expression e: 33+446#202044+330
+ Answers Match
+ String r ops substring sr: #0+#
+ String r ops expression e: 305#390080+227#483
+ Answers Match
+ String r ops substring sr: 0+#1
+ String r ops expression e: 1470201+270#4061436
+ Answers Match
+ String r ops substring sr: +#1+
+ String r ops expression e: 53+328#4671462+91
+ Answers Match
+ String r ops substring sr: #1+#
+ String r ops expression e: 461#5101306+62#354
+ Answers Match
+ String r ops substring sr: 1+#0
+ String r ops expression e: 421399+476#3070336
+ Answers Match
+ String r ops substring sr: +#0+
+ String r ops expression e: 136+103#2030214+354
+ Answers Match
+ String r ops substring sr: #0+#
+ String r ops expression e: 221#4520132+196#456
+ Answers Match
+ String r ops substring sr: 0+#1
+ String r ops expression e: 280257+485#1381436
+ Answers Match
+ String r ops substring sr: +#1+
+ String r ops expression e: 429+166#1311226+390
+ Answers Match
+ String r ops substring sr: #1+#1
+ String r ops expression e: 134#80140+282#3791467
+ Answers Match
+ String r ops substring sr: 1+#1+
+ String r ops expression e: 1201296+268#2441229+385
+ Answers Match
+ String r ops substring sr: +#1+#
+ String r ops expression e: 59+178#341226+305#322
+ Answers Match
+ String r ops substring sr: #1+#0
+ String r ops expression e: 186#1021219+292#720487
+ Answers Match
+ String r ops substring sr: 1+#0+
+ String r ops expression e: 2911236+74#50026+26
+ Answers Match
+ String r ops substring sr: +#0+#
+ String r ops expression e: 57+313#460334+302#515
+ Answers Match
+ String r ops substring sr: #0+#1
+ String r ops expression e: 31#2970207+183#497129
+ Answers Match
+ String r ops substring sr: 0+#1+
+ String r ops expression e: 1500107+317#1521228+310
+ Answers Match
+ String r ops substring sr: +#1+#
+ String r ops expression e: 50+512#2911165+220#65
+ Answers Match
+ String r ops substring sr: #1+#0
+ String r ops expression e: 165#1361490+277#332083
+ Answers Match
+ String r ops substring sr: 1+#0+
+ String r ops expression e: 4281163+447#2960505+325
+ Answers Match
+ String r ops substring sr: +#0+#
+ String r ops expression e: 130+307#366034+201#135
+ Answers Match
+ String r ops substring sr: #0+#1
+ String r ops expression e: 58#500281+432#3971464
+ Answers Match
+ String r ops substring sr: 0+#1+
+ String r ops expression e: 350503+480#4141273+395
+ Answers Match
+ String r ops substring sr: #1+#1+
+ String r ops expression e: 34#4961106+148#2291172+463
+ Answers Match
+ String r ops substring sr: 1+#1+#
+ String r ops expression e: 4411425+396#4301185+460#491
+ Answers Match
+ String r ops substring sr: +#1+#0
+ String r ops expression e: 105+117#411194+494#224098
+ Answers Match
+ String r ops substring sr: #1+#0+
+ String r ops expression e: 487#3521206+105#1080379+367
+ Answers Match
+ String r ops substring sr: 1+#0+#
+ String r ops expression e: 2851273+202#1260434+283#211
+ Answers Match
+ String r ops substring sr: +#0+#1
+ String r ops expression e: 413+184#278060+432#4711408
+ Answers Match
+ String r ops substring sr: #0+#1+
+ String r ops expression e: 379#2380230+206#1471219+439
+ Answers Match
+ String r ops substring sr: 0+#1+#
+ String r ops expression e: 3800113+434#611112+156#303
+ Answers Match
+ String r ops substring sr: +#1+#0
+ String r ops expression e: 147+337#991420+495#2390159
+ Answers Match
+ String r ops substring sr: #1+#0+
+ String r ops expression e: 217#1151477+462#3630508+344
+ Answers Match
+ String r ops substring sr: 1+#0+#
+ String r ops expression e: 4071177+323#231064+376#342
+ Answers Match
+ String r ops substring sr: +#0+#1
+ String r ops expression e: 379+270#2820473+459#190173
+ Answers Match
+ String r ops substring sr: #0+#1+
+ String r ops expression e: 447#420213+354#3321499+317
+ Answers Match
+ String r ops substring sr: #1+#1+#
+ String r ops expression e: 202#1321289+315#4441308+466#286
+ Answers Match
+ String r ops substring sr: 1+#1+#0
+ String r ops expression e: 1881391+76#4601158+52#3930335
+ Answers Match
+ String r ops substring sr: +#1+#0+
+ String r ops expression e: 53+510#1831472+66#5000369+48
+ Answers Match
+ String r ops substring sr: #1+#0+#
+ String r ops expression e: 297#1841123+65#1070406+496#436
+ Answers Match
+ String r ops substring sr: 1+#0+#1
+ String r ops expression e: 4571498+255#1210511+516#921456
+ Answers Match
+ String r ops substring sr: +#0+#1+
+ String r ops expression e: 176+252#3370447+387#1921194+429
+ Answers Match
+ String r ops substring sr: #0+#1+#
+ String r ops expression e: 256#2270403+243#2531383+43#415
+ Answers Match
+ String r ops substring sr: 0+#1+#0
+ String r ops expression e: 2690135+438#1861411+506#3710259
+ Answers Match
+ String r ops substring sr: +#1+#0+
+ String r ops expression e: 445+82#4921138+189#3750394+113
+ Answers Match
+ String r ops substring sr: #1+#0+#
+ String r ops expression e: 182#511461+103#1990502+94#398
+ Answers Match
+ String r ops substring sr: 1+#0+#1
+ String r ops expression e: 1291486+410#1980396+156#4651259
+ Answers Match
+ String r ops substring sr: +#0+#1+
+ String r ops expression e: 436+221#432031+323#2391513+230
+ Answers Match
+ String r ops substring sr: #1+#1+#0
+ String r ops expression e: 381#941164+480#841143+469#4220223
+ Answers Match
+ String r ops substring sr: 1+#1+#0+
+ String r ops expression e: 2341198+517#1801366+247#1740221+128
+ Answers Match
+ String r ops substring sr: +#1+#0+#
+ String r ops expression e: 265+342#4981326+346#2580434+177#177
+ Answers Match
+ String r ops substring sr: #1+#0+#1
+ String r ops expression e: 198#3381392+496#3100491+123#1571386
+ Answers Match
+ String r ops substring sr: 1+#0+#1+
+ String r ops expression e: 5201308+468#3420188+296#2821118+203
+ Answers Match
+ String r ops substring sr: +#0+#1+#
+ String r ops expression e: 304+135#2440358+312#4381453+212#300
+ Answers Match
+ String r ops substring sr: #0+#1+#0
+ String r ops expression e: 430#3820121+428#2471220+253#257034
+ Answers Match
+ String r ops substring sr: 0+#1+#0+
+ String r ops expression e: 4670203+422#1161424+60#3310210+34
+ Answers Match
+ String r ops substring sr: +#1+#0+#
+ String r ops expression e: 189+466#1291274+105#1200352+461#145
+ Answers Match
+ String r ops substring sr: #1+#0+#1
+ String r ops expression e: 111#164189+167#4290420+110#227190
+ Answers Match
+ String r ops substring sr: 1+#0+#1+
+ String r ops expression e: 2251482+143#92070+295#4541315+109
+ Answers Match
+ String r ops substring sr: #1+#1+#0+
+ String r ops expression e: 307#1391502+420#381121+30#150022+479
+ Answers Match
+ String r ops substring sr: 1+#1+#0+#
+ String r ops expression e: 1691492+473#881235+416#2310422+189#30
+ Answers Match
+ String r ops substring sr: +#1+#0+#1
+ String r ops expression e: 268+137#1011338+264#4750195+483#2631128
+ Answers Match
+ String r ops substring sr: #1+#0+#1+
+ String r ops expression e: 234#4121342+334#428098+141#2611266+200
+ Answers Match
+ String r ops substring sr: 1+#0+#1+#
+ String r ops expression e: 426198+248#1770285+339#3761503+34#42
+ Answers Match
+ String r ops substring sr: +#0+#1+#0
+ String r ops expression e: 475+169#4910296+470#2091405+337#1170422
+ Answers Match
+ String r ops substring sr: #0+#1+#0+
+ String r ops expression e: 80#1170373+425#5081246+147#5100223+478
+ Answers Match
+ String r ops substring sr: 0+#1+#0+#
+ String r ops expression e: 5080142+48#4541117+199#436076+177#297
+ Answers Match
+ String r ops substring sr: +#1+#0+#1
+ String r ops expression e: 221+297#251237+312#2370157+241#951297
+ Answers Match
+ String r ops substring sr: #1+#0+#1+
+ String r ops expression e: 488#2671193+509#4750206+146#231364+299
+ Answers Match
+ String r ops substring sr: #1+#1+#0+#
+ String r ops expression e: 88#811341+44#611437+139#2950309+496#332
+ Answers Match
+ String r ops substring sr: 1+#1+#0+#1
+ String r ops expression e: 86186+493#475158+377#235072+124#2941386
+ Answers Match
+ String r ops substring sr: +#1+#0+#1+
+ String r ops expression e: 473+213#4041392+240#1370289+490#3121232+274
+ Answers Match
+ String r ops substring sr: #1+#0+#1+#
+ String r ops expression e: 285#4111500+471#123052+46#631443+307#41
+ Answers Match
+ String r ops substring sr: 1+#0+#1+#0
+ String r ops expression e: 1331419+27#4320279+90#2071463+270#2070354
+ Answers Match
+ String r ops substring sr: +#0+#1+#0+
+ String r ops expression e: 478+118#3000358+209#1041421+238#61049+199
+ Answers Match
+ String r ops substring sr: #0+#1+#0+#
+ String r ops expression e: 366#670475+198#3591392+189#1530180+327#337
+ Answers Match
+ String r ops substring sr: 0+#1+#0+#1
+ String r ops expression e: 4290253+311#27130+386#360266+166#2331139
+ Answers Match
+ String r ops substring sr: +#1+#0+#1+
+ String r ops expression e: 208+265#1691437+467#4230517+516#184152+425
+ Answers Match
+ String r ops substring sr: #1+#1+#0+#1
+ String r ops expression e: 340#4381504+345#2871193+128#1230316+28#1371515
+ Answers Match
+ String r ops substring sr: 1+#1+#0+#1+
+ String r ops expression e: 1081131+240#1411179+296#3300367+93#5141510+444
+ Answers Match
+ String r ops substring sr: +#1+#0+#1+#
+ String r ops expression e: 393+164#4531388+422#354026+61#1441498+204#224
+ Answers Match
+ String r ops substring sr: #1+#0+#1+#0
+ String r ops expression e: 465#4021136+486#4490398+251#5181117+315#5190218
+ Answers Match
+ String r ops substring sr: 1+#0+#1+#0+
+ String r ops expression e: 286156+414#1190138+459#2541298+375#2060454+316
+ Answers Match
+ String r ops substring sr: +#0+#1+#0+#
+ String r ops expression e: 435+169#2290322+352#295187+405#3410400+335#29
+ Answers Match
+ String r ops substring sr: #0+#1+#0+#1
+ String r ops expression e: 202#1430518+484#741358+57#2010444+468#381140
+ Answers Match
+ String r ops substring sr: 0+#1+#0+#1+
+ String r ops expression e: 1840299+155#2201190+285#1230478+412#3171286+268
+ Answers Match
+ String r ops substring sr: #1+#1+#0+#1+
+ String r ops expression e: 330#3241480+383#30177+519#2610191+218#3071447+332
+ Answers Match
+ String r ops substring sr: 1+#1+#0+#1+#
+ String r ops expression e: 541342+266#1891345+183#76089+484#3631233+69#341
+ Answers Match
+ String r ops substring sr: +#1+#0+#1+#0
+ String r ops expression e: 299+374#4011346+55#350504+416#2961263+496#3220493
+ Answers Match
+ String r ops substring sr: #1+#0+#1+#0+
+ String r ops expression e: 414#3961224+304#1840160+305#188159+387#1850113+398
+ Answers Match
+ String r ops substring sr: 1+#0+#1+#0+#
+ String r ops expression e: 1151163+212#1770202+265#476166+255#630471+29#56
+ Answers Match
+ String r ops substring sr: +#0+#1+#0+#1
+ String r ops expression e: 340+206#3950322+319#74140+508#4180344+259#1801328
+ Answers Match
+ String r ops substring sr: #0+#1+#0+#1+
+ String r ops expression e: 393#1970241+85#2931356+516#294030+119#4031214+440
+ Answers Match
+ String r ops substring sr: #1+#1+#0+#1+#
+ String r ops expression e: 41#374157+512#2371242+33#4320148+109#4881207+229#410
+ Answers Match
+ String r ops substring sr: 1+#1+#0+#1+#0
+ String r ops expression e: 3481361+199#4141500+515#3980420+286#277160+246#395072
+ Answers Match
+ String r ops substring sr: +#1+#0+#1+#0+
+ String r ops expression e: 386+397#67140+193#710357+293#1691337+453#1690302+498
+ Answers Match
+ String r ops substring sr: #1+#0+#1+#0+#
+ String r ops expression e: 38#2241459+273#1170462+295#4631316+278#2300321+335#287
+ Answers Match
+ String r ops substring sr: 1+#0+#1+#0+#1
+ String r ops expression e: 891293+411#850224+232#494171+438#630198+281#4201199
+ Answers Match
+ String r ops substring sr: +#0+#1+#0+#1+
+ String r ops expression e: 59+131#650315+150#209165+282#2590133+23#3111481+103
+ Answers Match
+ String r ops substring sr: #1+#1+#0+#1+#0
+ String r ops expression e: 489#4421378+71#3161139+210#491080+317#1511290+450#830433
+ Answers Match
+ String r ops substring sr: 1+#1+#0+#1+#0+
+ String r ops expression e: 1391366+471#4151219+216#3430281+500#3351485+261#64098+255
+ Answers Match
+ String r ops substring sr: +#1+#0+#1+#0+#
+ String r ops expression e: 122+261#2071395+79#3820368+345#2011201+515#860509+56#26
+ Answers Match
+ String r ops substring sr: #1+#0+#1+#0+#1
+ String r ops expression e: 128#471192+472#3930420+319#3741223+104#3130232+272#188198
+ Answers Match
+ String r ops substring sr: 1+#0+#1+#0+#1+
+ String r ops expression e: 1411455+127#1550270+35#159192+204#260079+47#2311281+297
+ Answers Match
+ String r ops substring sr: #1+#1+#0+#1+#0+
+ String r ops expression e: 94#671317+320#211236+248#1580221+390#470156+488#2410468+450
+ Answers Match
+ String r ops substring sr: 1+#1+#0+#1+#0+#
+ String r ops expression e: 3131487+113#1071223+178#216063+421#3221354+197#3480236+371#76
+ Answers Match
+ String r ops substring sr: +#1+#0+#1+#0+#1
+ String r ops expression e: 382+193#387193+178#2540432+383#1621367+126#260367+337#681185
+ Answers Match
+ String r ops substring sr: #1+#0+#1+#0+#1+
+ String r ops expression e: 219#1021278+484#4680420+175#2511295+89#180057+92#124184+437
+ Answers Match
+ String r ops substring sr: #1+#1+#0+#1+#0+#
+ String r ops expression e: 168#4811306+174#311408+147#1160503+300#261161+288#87077+268#85
+ Answers Match
+ String r ops substring sr: 1+#1+#0+#1+#0+#1
+ String r ops expression e: 1381274+208#1131475+33#1160329+197#4571432+246#486073+324#1081325
+ Answers Match
+ String r ops substring sr: +#1+#0+#1+#0+#1+
+ String r ops expression e: 515+362#2281182+218#3820519+346#1991295+210#3630491+449#3941103+250
+ Answers Match
+ String r ops substring sr: #1+#1+#0+#1+#0+#1
+ String r ops expression e: 92#3811442+431#261439+243#2810110+200#4421203+482#300423+293#1001294
+ Answers Match
+ String r ops substring sr: 1+#1+#0+#1+#0+#1+
+ String r ops expression e: 102141+57#3191219+390#5130463+196#3961109+417#1630363+276#4001291+286
+ Answers Match
+ String r ops substring sr: #1+#1+#0+#1+#0+#1+
+ String r ops expression e: 485#661434+455#2631317+300#463027+324#3881248+249#3420301+149#3501396+204
+ Answers Match
+ String r: Factor#2+Factor#0+Term#0+
+ String r ops: #2+#0+#0+
+ String r ops substring sr: #
+ String r ops expression e: 205#323
+ Answers Match
+ String r ops substring sr: 2
+ String r ops expression e: 1202243
+ String r ops answer: 1202243
+ String r ops correct answer: 1202243
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 194+152
+ String r ops answer: 346
+ String r ops correct answer: 346
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 415#64
+ Answers Match
+ String r ops substring sr: 0
+ String r ops expression e: 760316
+ String r ops answer: 760316
+ String r ops correct answer: 760316
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 232+240
+ String r ops answer: 472
+ String r ops correct answer: 472
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 169#434
+ Answers Match
+ String r ops substring sr: 0
+ String r ops expression e: 440419
+ String r ops answer: 440419
+ String r ops correct answer: 440419
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 456+442
+ String r ops answer: 898
+ String r ops correct answer: 898
+ Answers Match
+ String r ops substring sr: #2
+ String r ops expression e: 128#3392503
+ Answers Match
+ String r ops substring sr: 2+
+ String r ops expression e: 1492453+489
+ String r ops answer: 1492942
+ String r ops correct answer: 1492942
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 434+487#421
+ Answers Match
+ String r ops substring sr: #0
+ String r ops expression e: 209#4040408
+ Answers Match
+ String r ops substring sr: 0+
+ String r ops expression e: 2940302+383
+ String r ops answer: 2940685
+ String r ops correct answer: 2940685
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 475+494#384
+ Answers Match
+ String r ops substring sr: #0
+ String r ops expression e: 449#5070466
+ Answers Match
+ String r ops substring sr: 0+
+ String r ops expression e: 185092+398
+ String r ops answer: 185490
+ String r ops correct answer: 185490
+ Answers Match
+ String r ops substring sr: #2+
+ String r ops expression e: 28#2592316+158
+ Answers Match
+ String r ops substring sr: 2+#
+ String r ops expression e: 772245+513#200
+ Answers Match
+ String r ops substring sr: +#0
+ String r ops expression e: 139+220#2970429
+ Answers Match
+ String r ops substring sr: #0+
+ String r ops expression e: 99#506088+341
+ Answers Match
+ String r ops substring sr: 0+#
+ String r ops expression e: 4800367+321#42
+ Answers Match
+ String r ops substring sr: +#0
+ String r ops expression e: 402+498#1970382
+ Answers Match
+ String r ops substring sr: #0+
+ String r ops expression e: 267#4440368+270
+ Answers Match
+ String r ops substring sr: #2+#
+ String r ops expression e: 418#2072403+173#309
+ Answers Match
+ String r ops substring sr: 2+#0
+ String r ops expression e: 1962255+333#3460434
+ Answers Match
+ String r ops substring sr: +#0+
+ String r ops expression e: 317+329#2660519+432
+ Answers Match
+ String r ops substring sr: #0+#
+ String r ops expression e: 291#4170223+501#331
+ Answers Match
+ String r ops substring sr: 0+#0
+ String r ops expression e: 4620368+508#850378
+ Answers Match
+ String r ops substring sr: +#0+
+ String r ops expression e: 155+468#1860233+37
+ Answers Match
+ String r ops substring sr: #2+#0
+ String r ops expression e: 396#4622462+417#4680226
+ Answers Match
+ String r ops substring sr: 2+#0+
+ String r ops expression e: 369229+66#1910247+192
+ Answers Match
+ String r ops substring sr: +#0+#
+ String r ops expression e: 361+237#3980382+21#73
+ Answers Match
+ String r ops substring sr: #0+#0
+ String r ops expression e: 436#370504+250#210421
+ Answers Match
+ String r ops substring sr: 0+#0+
+ String r ops expression e: 2350367+195#320220+434
+ Answers Match
+ String r ops substring sr: #2+#0+
+ String r ops expression e: 173#402444+411#3370132+20
+ Answers Match
+ String r ops substring sr: 2+#0+#
+ String r ops expression e: 1592306+246#2600314+245#241
+ Answers Match
+ String r ops substring sr: +#0+#0
+ String r ops expression e: 393+438#860315+235#225063
+ Answers Match
+ String r ops substring sr: #0+#0+
+ String r ops expression e: 193#87065+361#430129+322
+ Answers Match
+ String r ops substring sr: #2+#0+#
+ String r ops expression e: 306#4232449+388#3550189+239#269
+ Answers Match
+ String r ops substring sr: 2+#0+#0
+ String r ops expression e: 1552244+491#3070175+346#284045
+ Answers Match
+ String r ops substring sr: +#0+#0+
+ String r ops expression e: 356+268#5030175+345#880473+132
+ Answers Match
+ String r ops substring sr: #2+#0+#0
+ String r ops expression e: 228#1522138+439#2090370+495#2140444
+ Answers Match
+ String r ops substring sr: 2+#0+#0+
+ String r ops expression e: 4322518+457#1570296+298#1400355+399
+ Answers Match
+ String r ops substring sr: #2+#0+#0+
+ String r ops expression e: 65#782271+465#158033+260#5140335+163
+ Answers Match
+ String r: Expr#0+Factor#0+Term#1+
+ String r ops: #0+#0+#1+
+ String r ops substring sr: #
+ String r ops expression e: 101#269
+ Answers Match
+ String r ops substring sr: 0
+ String r ops expression e: 146059
+ String r ops answer: 146059
+ String r ops correct answer: 146059
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 146+69
+ String r ops answer: 215
+ String r ops correct answer: 215
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 307#387
+ Answers Match
+ String r ops substring sr: 0
+ String r ops expression e: 4040102
+ String r ops answer: 4040102
+ String r ops correct answer: 4040102
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 253+496
+ String r ops answer: 749
+ String r ops correct answer: 749
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 41#361
+ Answers Match
+ String r ops substring sr: 1
+ String r ops expression e: 1821253
+ String r ops answer: 1821253
+ String r ops correct answer: 1821253
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 314+100
+ String r ops answer: 414
+ String r ops correct answer: 414
+ Answers Match
+ String r ops substring sr: #0
+ String r ops expression e: 28#3480275
+ Answers Match
+ String r ops substring sr: 0+
+ String r ops expression e: 2940360+411
+ String r ops answer: 2940771
+ String r ops correct answer: 2940771
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 31+131#224
+ Answers Match
+ String r ops substring sr: #0
+ String r ops expression e: 401#290471
+ Answers Match
+ String r ops substring sr: 0+
+ String r ops expression e: 4160457+244
+ String r ops answer: 4160701
+ String r ops correct answer: 4160701
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 386+89#230
+ Answers Match
+ String r ops substring sr: #1
+ String r ops expression e: 206#4141503
+ Answers Match
+ String r ops substring sr: 1+
+ String r ops expression e: 481114+64
+ String r ops answer: 481178
+ String r ops correct answer: 481178
+ Answers Match
+ String r ops substring sr: #0+
+ String r ops expression e: 516#2830274+227
+ Answers Match
+ String r ops substring sr: 0+#
+ String r ops expression e: 2330274+292#238
+ Answers Match
+ String r ops substring sr: +#0
+ String r ops expression e: 451+313#3600103
+ Answers Match
+ String r ops substring sr: #0+
+ String r ops expression e: 225#371065+138
+ Answers Match
+ String r ops substring sr: 0+#
+ String r ops expression e: 35035+487#221
+ Answers Match
+ String r ops substring sr: +#1
+ String r ops expression e: 120+450#3181206
+ Answers Match
+ String r ops substring sr: #1+
+ String r ops expression e: 99#5191487+202
+ Answers Match
+ String r ops substring sr: #0+#
+ String r ops expression e: 501#880178+397#274
+ Answers Match
+ String r ops substring sr: 0+#0
+ String r ops expression e: 4590234+412#2730212
+ Answers Match
+ String r ops substring sr: +#0+
+ String r ops expression e: 291+337#57070+482
+ Answers Match
+ String r ops substring sr: #0+#
+ String r ops expression e: 23#1750357+310#53
+ Answers Match
+ String r ops substring sr: 0+#1
+ String r ops expression e: 3530500+192#3841251
+ Answers Match
+ String r ops substring sr: +#1+
+ String r ops expression e: 490+328#1481101+278
+ Answers Match
+ String r ops substring sr: #0+#0
+ String r ops expression e: 395#3580192+226#770374
+ Answers Match
+ String r ops substring sr: 0+#0+
+ String r ops expression e: 2230408+225#4240109+383
+ Answers Match
+ String r ops substring sr: +#0+#
+ String r ops expression e: 360+239#2740398+396#453
+ Answers Match
+ String r ops substring sr: #0+#1
+ String r ops expression e: 439#4430310+341#289185
+ Answers Match
+ String r ops substring sr: 0+#1+
+ String r ops expression e: 440204+253#1241184+314
+ Answers Match
+ String r ops substring sr: #0+#0+
+ String r ops expression e: 430#2800429+202#4390382+21
+ Answers Match
+ String r ops substring sr: 0+#0+#
+ String r ops expression e: 3390200+364#1780292+280#285
+ Answers Match
+ String r ops substring sr: +#0+#1
+ String r ops expression e: 153+346#74085+317#2901142
+ Answers Match
+ String r ops substring sr: #0+#1+
+ String r ops expression e: 341#1230116+52#465120+253
+ Answers Match
+ String r ops substring sr: #0+#0+#
+ String r ops expression e: 44#4730252+149#2470298+68#63
+ Answers Match
+ String r ops substring sr: 0+#0+#1
+ String r ops expression e: 770457+170#2720258+391#202187
+ Answers Match
+ String r ops substring sr: +#0+#1+
+ String r ops expression e: 198+281#300092+192#3091119+352
+ Answers Match
+ String r ops substring sr: #0+#0+#1
+ String r ops expression e: 104#4910347+21#3340496+30#2591473
+ Answers Match
+ String r ops substring sr: 0+#0+#1+
+ String r ops expression e: 220047+224#750294+287#514121+231
+ Answers Match
+ String r ops substring sr: #0+#0+#1+
+ String r ops expression e: 476#4780355+491#253061+423#4051403+37
+ Answers Match
+ String r: Factor#2+Factor#2+Factor#0+Term#1+
+ String r ops: #2+#2+#0+#1+
+ String r ops substring sr: #
+ String r ops expression e: 481#152
+ Answers Match
+ String r ops substring sr: 2
+ String r ops expression e: 1622433
+ String r ops answer: 1622433
+ String r ops correct answer: 1622433
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 273+269
+ String r ops answer: 542
+ String r ops correct answer: 542
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 277#228
+ Answers Match
+ String r ops substring sr: 2
+ String r ops expression e: 3182129
+ String r ops answer: 3182129
+ String r ops correct answer: 3182129
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 398+66
+ String r ops answer: 464
+ String r ops correct answer: 464
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 409#232
+ Answers Match
+ String r ops substring sr: 0
+ String r ops expression e: 440144
+ String r ops answer: 440144
+ String r ops correct answer: 440144
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 465+251
+ String r ops answer: 716
+ String r ops correct answer: 716
+ Answers Match
+ String r ops substring sr: #
+ String r ops expression e: 196#236
+ Answers Match
+ String r ops substring sr: 1
+ String r ops expression e: 5141389
+ String r ops answer: 5141389
+ String r ops correct answer: 5141389
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 146+406
+ String r ops answer: 552
+ String r ops correct answer: 552
+ Answers Match
+ String r ops substring sr: #2
+ String r ops expression e: 179#3262429
+ Answers Match
+ String r ops substring sr: 2+
+ String r ops expression e: 417259+296
+ String r ops answer: 417555
+ String r ops correct answer: 417555
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 164+91#385
+ Answers Match
+ String r ops substring sr: #2
+ String r ops expression e: 231#2462471
+ Answers Match
+ String r ops substring sr: 2+
+ String r ops expression e: 2752332+184
+ String r ops answer: 2752516
+ String r ops correct answer: 2752516
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 69+304#455
+ Answers Match
+ String r ops substring sr: #0
+ String r ops expression e: 475#2100449
+ Answers Match
+ String r ops substring sr: 0+
+ String r ops expression e: 3080108+84
+ String r ops answer: 3080192
+ String r ops correct answer: 3080192
+ Answers Match
+ String r ops substring sr: +#
+ String r ops expression e: 280+114#304
+ Answers Match
+ String r ops substring sr: #1
+ String r ops expression e: 501#4851174
+ Answers Match
+ String r ops substring sr: 1+
+ String r ops expression e: 242182+84
+ String r ops answer: 242266
+ String r ops correct answer: 242266
+ Answers Match
+ String r ops substring sr: #2+
+ String r ops expression e: 79#3892203+277
+ Answers Match
+ String r ops substring sr: 2+#
+ String r ops expression e: 2522132+358#38
+ Answers Match
+ String r ops substring sr: +#2
+ String r ops expression e: 464+185#352293
+ Answers Match
+ String r ops substring sr: #2+
+ String r ops expression e: 77#2222284+470
+ Answers Match
+ String r ops substring sr: 2+#
+ String r ops expression e: 3662368+128#251
+ Answers Match
+ String r ops substring sr: +#0
+ String r ops expression e: 41+62#4470107
+ Answers Match
+ String r ops substring sr: #0+
+ String r ops expression e: 367#4050287+46
+ Answers Match
+ String r ops substring sr: 0+#
+ String r ops expression e: 1600391+180#166
+ Answers Match
+ String r ops substring sr: +#1
+ String r ops expression e: 429+402#3281463
+ Answers Match
+ String r ops substring sr: #1+
+ String r ops expression e: 414#741108+492
+ Answers Match
+ String r ops substring sr: #2+#
+ String r ops expression e: 450#5102331+370#233
+ Answers Match
+ String r ops substring sr: 2+#2
+ String r ops expression e: 4542404+251#3532297
+ Answers Match
+ String r ops substring sr: +#2+
+ String r ops expression e: 489+493#3232368+143
+ Answers Match
+ String r ops substring sr: #2+#
+ String r ops expression e: 299#2272100+516#105
+ Answers Match
+ String r ops substring sr: 2+#0
+ String r ops expression e: 1562132+211#4530154
+ Answers Match
+ String r ops substring sr: +#0+
+ String r ops expression e: 514+207#486074+475
+ Answers Match
+ String r ops substring sr: #0+#
+ String r ops expression e: 373#640482+298#84
+ Answers Match
+ String r ops substring sr: 0+#1
+ String r ops expression e: 339069+509#2461349
+ Answers Match
+ String r ops substring sr: +#1+
+ String r ops expression e: 417+83#1451461+454
+ Answers Match
+ String r ops substring sr: #2+#2
+ String r ops expression e: 443#5072132+471#4262410
+ Answers Match
+ String r ops substring sr: 2+#2+
+ String r ops expression e: 1062230+380#3342225+365
+ Answers Match
+ String r ops substring sr: +#2+#
+ String r ops expression e: 344+27#982105+165#169
+ Answers Match
+ String r ops substring sr: #2+#0
+ String r ops expression e: 315#1792117+379#3730237
+ Answers Match
+ String r ops substring sr: 2+#0+
+ String r ops expression e: 364247+358#1140250+217
+ Answers Match
+ String r ops substring sr: +#0+#
+ String r ops expression e: 254+394#900323+99#380
+ Answers Match
+ String r ops substring sr: #0+#1
+ String r ops expression e: 129#4850396+358#211300
+ Answers Match
+ String r ops substring sr: 0+#1+
+ String r ops expression e: 4570354+505#1411456+21
+ Answers Match
+ String r ops substring sr: #2+#2+
+ String r ops expression e: 63#3422144+254#1092381+167
+ Answers Match
+ String r ops substring sr: 2+#2+#
+ String r ops expression e: 2352242+214#252219+263#296
+ Answers Match
+ String r ops substring sr: +#2+#0
+ String r ops expression e: 124+129#602490+316#314048
+ Answers Match
+ String r ops substring sr: #2+#0+
+ String r ops expression e: 157#2182204+128#5160387+78
+ Answers Match
+ String r ops substring sr: 2+#0+#
+ String r ops expression e: 153289+269#154050+38#20
+ Answers Match
+ String r ops substring sr: +#0+#1
+ String r ops expression e: 388+190#68036+492#1501202
+ Answers Match
+ String r ops substring sr: #0+#1+
+ String r ops expression e: 131#5190381+277#4281169+243
+ Answers Match
+ String r ops substring sr: #2+#2+#
+ String r ops expression e: 300#652408+131#4822321+519#303
+ Answers Match
+ String r ops substring sr: 2+#2+#0
+ String r ops expression e: 2352215+259#1482234+67#4700474
+ Answers Match
+ String r ops substring sr: +#2+#0+
+ String r ops expression e: 300+328#2512375+289#351086+28
+ Answers Match
+ String r ops substring sr: #2+#0+#
+ String r ops expression e: 514#4962231+144#3130220+163#472
+ Answers Match
+ String r ops substring sr: 2+#0+#1
+ String r ops expression e: 3532453+397#750519+205#1661144
+ Answers Match
+ String r ops substring sr: +#0+#1+
+ String r ops expression e: 368+416#1160361+38#1021489+265
+ Answers Match
+ String r ops substring sr: #2+#2+#0
+ String r ops expression e: 289#3442131+232#432284+79#320331
+ Answers Match
+ String r ops substring sr: 2+#2+#0+
+ String r ops expression e: 111240+480#3962455+147#464083+200
+ Answers Match
+ String r ops substring sr: +#2+#0+#
+ String r ops expression e: 62+86#3122486+272#3390430+184#218
+ Answers Match
+ String r ops substring sr: #2+#0+#1
+ String r ops expression e: 85#4502368+354#1900130+337#1941456
+ Answers Match
+ String r ops substring sr: 2+#0+#1+
+ String r ops expression e: 2272490+481#4360265+393#2681437+61
+ Answers Match
+ String r ops substring sr: #2+#2+#0+
+ String r ops expression e: 328#4122378+425#552303+274#5050387+503
+ Answers Match
+ String r ops substring sr: 2+#2+#0+#
+ String r ops expression e: 383299+506#462284+426#2490506+223#386
+ Answers Match
+ String r ops substring sr: +#2+#0+#1
+ String r ops expression e: 293+374#732168+414#3400164+235#711163
+ Answers Match
+ String r ops substring sr: #2+#0+#1+
+ String r ops expression e: 38#2212229+502#504091+329#3391164+80
+ Answers Match
+ String r ops substring sr: #2+#2+#0+#
+ String r ops expression e: 351#4652418+409#3522180+267#710288+492#47
+ Answers Match
+ String r ops substring sr: 2+#2+#0+#1
+ String r ops expression e: 1482266+378#266263+210#4530444+468#1851320
+ Answers Match
+ String r ops substring sr: +#2+#0+#1+
+ String r ops expression e: 272+116#3302328+72#484061+25#3341217+286
+ Answers Match
+ String r ops substring sr: #2+#2+#0+#1
+ String r ops expression e: 232#202264+493#3632477+407#880400+172#2631350
+ Answers Match
+ String r ops substring sr: 2+#2+#0+#1+
+ String r ops expression e: 3252326+210#3042206+87#1300223+218#1941399+295
+ Answers Match
+ String r ops substring sr: #2+#2+#0+#1+
+ String r ops expression e: 416#1862229+304#3062181+279#4280494+202#3781447+519
+ Answers Match

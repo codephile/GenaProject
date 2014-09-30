@@ -1,0 +1,20 @@
+
+ Requirement String: ([N])/[N]*[N]
+
+ String r: ([N])/[N]*[N]
+ String r ops: J/*
+ String r ops substring sr: J
+ String r ops expression e: (49)
+ String r ops correct answer: 49
+ Answers Do Not Match
+ String r ops substring sr: /
+ String r ops expression e: 492/385
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 231*99
+ String r ops answer: 22869
+ String r ops correct answer: 22869
+ Answers Match
+ r: J

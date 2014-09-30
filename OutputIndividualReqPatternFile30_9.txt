@@ -1,0 +1,51 @@
+
+ String r: (Expr-Factor)-Factor*Term-[N]
+ String r ops: G-*-
+ String r ops substring sr: G
+ String r ops expression e: (224-72)
+ String r ops answer: 152
+ String r ops correct answer: 152
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 492-349
+ String r ops answer: 143
+ String r ops correct answer: 143
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 293*459
+ String r ops answer: 134487
+ String r ops correct answer: 134487
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 291-308
+ String r ops answer: -17
+ String r ops correct answer: -17
+ Answers Match
+ String r ops substring sr: G-
+ String r ops expression e: (313-370)-392
+ String r ops answer: -449
+ String r ops correct answer: -449
+ Answers Match
+ String r ops substring sr: -*
+ String r ops expression e: 385-208*198
+ String r ops answer: -40799
+ String r ops correct answer: -40799
+ Answers Match
+ String r ops substring sr: *-
+ String r ops expression e: 488*378-336
+ String r ops answer: 184128
+ String r ops correct answer: 184128
+ Answers Match
+ String r ops substring sr: G-*
+ String r ops expression e: (381-337)-79*86
+ String r ops answer: -6750
+ String r ops correct answer: -6750
+ Answers Match
+ String r ops substring sr: -*-
+ String r ops expression e: 471-310*480-212
+ String r ops answer: -148117
+ String r ops correct answer: -148541
+ Answers Do Not Match
+Reduced Requirement in error: (Expr-Factor)-Factor*Term-[N]
+Pattern in error: -*-
+ Causes to Array: [-*-]

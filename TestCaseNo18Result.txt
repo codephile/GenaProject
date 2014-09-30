@@ -1,0 +1,151 @@
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 0 Test Name: AgillespieInfixArith Success: No
+[*/, //]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 1 Test Name: AshearerInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 2 Test Name: BrothInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 3 Test Name: CfrankInfixArith Success: No
+[/, *, +, -]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 4 Test Name: KcaumeranInfixArith Success: No
+[/*, */, //, /+, *-]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 5 Test Name: KfloresInfixArith Success: No
+[*/, //, /+, *-]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 6 Test Name: PkwetebokashangInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 7 Test Name: AhazratiInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 8 Test Name: AhclarkeInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 9 Test Name: BalbuloushiInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 10 Test Name: CebiggsInfixArith Success: No
+[*/, /*, //]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 11 Test Name: GnguyenInfixArith Success: No
+[/+, *-]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 12 Test Name: MeisnerInfixArith Success: No
+[/, *, +, -]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 13 Test Name: RhuInfixArith Success: No
+[*/, /*, //, F]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: (944/92/144+23+405/1000*922/242*29)*939-153
+ Correct Answer: Result: 21444
+TestRequirement: [N]/[N]*[N]/[N]*[N] [N]/[N]/[N]+[N]+Factor*Term (Expr+Factor)*[N]-[N]
+
+Test Number: 14 Test Name: WfloresInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+

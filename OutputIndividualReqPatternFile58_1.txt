@@ -1,0 +1,51 @@
+
+ String r: [N]/[N]/[N]*[N]+Factor/Term
+ String r ops: //*+/
+ String r ops substring sr: /
+ String r ops expression e: 242/288
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 251/43
+ String r ops answer: 5
+ String r ops correct answer: 5
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 505*330
+ String r ops answer: 166650
+ String r ops correct answer: 166650
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 350+52
+ String r ops answer: 402
+ String r ops correct answer: 402
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 421/354
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: //
+ String r ops expression e: 272/255/212
+ String r ops answer: 272
+ String r ops correct answer: 0
+ Answers Do Not Match
+Reduced Requirement in error: [N]/[N]/[N]*[N]+Factor/Term
+Pattern in error: //
+ String r ops substring sr: /*
+ String r ops expression e: 93/355*133
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: *+
+ String r ops expression e: 63*390+161
+ String r ops answer: 24731
+ String r ops correct answer: 24731
+ Answers Match
+ String r ops substring sr: +/
+ String r ops expression e: 460+317/293
+ String r ops answer: 461
+ String r ops correct answer: 461
+ Answers Match
+ Causes to Array: [//]

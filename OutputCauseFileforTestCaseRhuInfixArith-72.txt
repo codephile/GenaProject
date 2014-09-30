@@ -1,0 +1,78 @@
+
+ Requirement String: [N]/[N] [N]+Factor/Term (Expr+Factor) [N]/[N]*(Expr+Factor)*[N]/[N]-Factor/Term+[N]-[N]
+
+ String r: [N]/[N]
+ String r ops: /
+ String r ops substring sr: /
+ String r ops expression e: 260/351
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r: [N]+Factor/Term
+ String r ops: +/
+ String r ops substring sr: +
+ String r ops expression e: 154+360
+ String r ops answer: 514
+ String r ops correct answer: 514
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 203/356
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: +/
+ String r ops expression e: 482+392/360
+ String r ops answer: 483
+ String r ops correct answer: 483
+ Answers Match
+ String r: (Expr+Factor)
+ String r ops: F
+ String r ops substring sr: F
+ String r ops expression e: (300+366)
+ String r ops correct answer: 666
+ Answers Do Not Match
+ String r: [N]/[N]*(Expr+Factor)*[N]/[N]-Factor/Term+[N]-[N]
+ String r ops: /*F*/-/+-
+ String r ops substring sr: /
+ String r ops expression e: 471/407
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 128*483
+ String r ops answer: 61824
+ String r ops correct answer: 61824
+ Answers Match
+ String r ops substring sr: F
+ Answers Do Not Match: Outside Loop
+ String r ops substring sr: *
+ String r ops expression e: 318*101
+ String r ops answer: 32118
+ String r ops correct answer: 32118
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 84/22
+ String r ops answer: 3
+ String r ops correct answer: 3
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 396-74
+ String r ops answer: 322
+ String r ops correct answer: 322
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 416/213
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 400+317
+ String r ops answer: 717
+ String r ops correct answer: 717
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 374-300
+ String r ops answer: 74
+ String r ops correct answer: 74
+ Answers Match
+ r: F

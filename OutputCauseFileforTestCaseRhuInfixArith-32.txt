@@ -1,0 +1,32 @@
+
+ Requirement String: [N]*[N] (Factor*Term)/[N]*[N]/[N]
+
+ String r: [N]*[N]
+ String r ops: *
+ String r ops substring sr: *
+ String r ops expression e: 248*454
+ String r ops answer: 112592
+ String r ops correct answer: 112592
+ Answers Match
+ String r: (Factor*Term)/[N]*[N]/[N]
+ String r ops: H/*/
+ String r ops substring sr: H
+ String r ops expression e: (175*407)
+ String r ops correct answer: 71225
+ Answers Do Not Match
+ String r ops substring sr: /
+ String r ops expression e: 441/26
+ String r ops answer: 16
+ String r ops correct answer: 16
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 348*383
+ String r ops answer: 133284
+ String r ops correct answer: 133284
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 398/170
+ String r ops answer: 2
+ String r ops correct answer: 2
+ Answers Match
+ r: H

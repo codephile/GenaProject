@@ -1,0 +1,151 @@
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 0 Test Name: AgillespieInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 1 Test Name: AshearerInfixArith Success: No
+[J]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 2 Test Name: BrothInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 3 Test Name: CfrankInfixArith Success: No
+[*, J]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 4 Test Name: KcaumeranInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 5 Test Name: KfloresInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 6 Test Name: PkwetebokashangInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 7 Test Name: AhazratiInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 8 Test Name: AhclarkeInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 9 Test Name: BalbuloushiInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 10 Test Name: CebiggsInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 11 Test Name: GnguyenInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 12 Test Name: MeisnerInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 13 Test Name: RhuInfixArith Success: No
+[J]
+
+---------End Test Case Analysis---------
+
+---------Begin Test Case Analysis---------
+TestCase: 894*(563)
+ Correct Answer: Result: 503322
+TestRequirement: [N] [N]*([N])
+
+Test Number: 14 Test Name: WfloresInfixArith Success: Yes
+[]
+
+---------End Test Case Analysis---------
+

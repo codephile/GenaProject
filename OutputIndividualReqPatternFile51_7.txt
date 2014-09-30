@@ -1,0 +1,54 @@
+
+ String r: [N]*[N]*[N]*[N]*[N]
+ String r ops: ****
+ String r ops substring sr: *
+ String r ops expression e: 144*212
+ String r ops answer: 30528
+ String r ops correct answer: 30528
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 336*458
+ String r ops answer: 153888
+ String r ops correct answer: 153888
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 52*220
+ String r ops answer: 11440
+ String r ops correct answer: 11440
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 241*183
+ String r ops answer: 44103
+ String r ops correct answer: 44103
+ Answers Match
+ String r ops substring sr: **
+ String r ops expression e: 397*430*311
+ String r ops answer: 53090810
+ String r ops correct answer: 53090810
+ Answers Match
+ String r ops substring sr: **
+ String r ops expression e: 426*78*266
+ String r ops answer: 8838648
+ String r ops correct answer: 8838648
+ Answers Match
+ String r ops substring sr: **
+ String r ops expression e: 97*53*99
+ String r ops answer: 508959
+ String r ops correct answer: 508959
+ Answers Match
+ String r ops substring sr: ***
+ String r ops expression e: 187*245*75*288
+ String r ops answer: 989604000
+ String r ops correct answer: 989604000
+ Answers Match
+ String r ops substring sr: ***
+ String r ops expression e: 120*235*126*247
+ String r ops answer: 877640400
+ String r ops correct answer: 877640400
+ Answers Match
+ String r ops substring sr: ****
+ String r ops expression e: 94*488*464*251*76
+ String r ops answer: -1996710912
+ String r ops correct answer: -1996710912
+ Answers Match
+ Causes to Array: No Causes Found

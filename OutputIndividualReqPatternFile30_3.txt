@@ -1,0 +1,62 @@
+
+ String r: [N]*[N]/[N]*[N]*[N]/(Expr-Factor)
+ String r ops: */**/G
+ String r ops substring sr: *
+ String r ops expression e: 381*134
+ String r ops answer: 51054
+ String r ops correct answer: 51054
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 26/253
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 367*354
+ String r ops answer: 129918
+ String r ops correct answer: 129918
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 339*180
+ String r ops answer: 61020
+ String r ops correct answer: 61020
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 261/485
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: G
+ String r ops expression e: (85-362)
+ String r ops answer: -277
+ String r ops correct answer: -277
+ Answers Match
+ String r ops substring sr: */
+ String r ops expression e: 272*358/453
+ String r ops answer: 0
+ String r ops correct answer: 214
+ Answers Do Not Match
+Reduced Requirement in error: [N]*[N]/[N]*[N]*[N]/(Expr-Factor)
+Pattern in error: */
+ String r ops substring sr: /*
+ String r ops expression e: 133/38*113
+ String r ops answer: 0
+ String r ops correct answer: 339
+ Answers Do Not Match
+Reduced Requirement in error: [N]*[N]/[N]*[N]*[N]/(Expr-Factor)
+Pattern in error: /*
+ String r ops substring sr: **
+ String r ops expression e: 190*64*149
+ String r ops answer: 1811840
+ String r ops correct answer: 1811840
+ Answers Match
+ String r ops substring sr: */
+ Answers Do Not Match: Outside Loop
+Reduced Requirement in error: [N]*[N]/[N]*[N]*[N]/(Expr-Factor)
+Pattern in error outside loop: */
+ String r ops substring sr: /G
+ String r ops expression e: 398/(342-311)
+ String r ops answer: 12
+ String r ops correct answer: 12
+ Answers Match
+ Causes to Array: [*/, /*]

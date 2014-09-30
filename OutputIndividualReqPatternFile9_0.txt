@@ -1,0 +1,41 @@
+
+ String r: [N]*(Expr+Factor)/[N]*[N]
+ String r ops: *F/*
+ String r ops substring sr: *
+ String r ops expression e: 172*430
+ String r ops answer: 73960
+ String r ops correct answer: 73960
+ Answers Match
+ String r ops substring sr: F
+ String r ops expression e: (461+366)
+ String r ops answer: 827
+ String r ops correct answer: 827
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 63/43
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 359*118
+ String r ops answer: 42362
+ String r ops correct answer: 42362
+ Answers Match
+ String r ops substring sr: *F
+ String r ops expression e: 373*(423+133)
+ String r ops answer: 207388
+ String r ops correct answer: 207388
+ Answers Match
+ String r ops substring sr: F/
+ String r ops expression e: (283+516)/477
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: /*
+ String r ops expression e: 434/141*304
+ String r ops answer: 0
+ String r ops correct answer: 912
+ Answers Do Not Match
+Reduced Requirement in error: [N]*(Expr+Factor)/[N]*[N]
+Pattern in error: /*
+ Causes to Array: [/*]

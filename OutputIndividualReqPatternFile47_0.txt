@@ -1,0 +1,68 @@
+
+ String r: [N]/[N]*(Expr-Factor)/[N]+[N]
+ String r ops: /*G/+
+ String r ops substring sr: /
+ String r ops expression e: 182/366
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 301*402
+ String r ops answer: 121002
+ String r ops correct answer: 121002
+ Answers Match
+ String r ops substring sr: G
+ String r ops expression e: (251-234)
+ String r ops answer: 17
+ String r ops correct answer: 17
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 425/31
+ String r ops answer: 13
+ String r ops correct answer: 13
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 70+411
+ String r ops answer: 481
+ String r ops correct answer: 481
+ Answers Match
+ String r ops substring sr: /*
+ String r ops expression e: 217/370*367
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: *G
+ String r ops expression e: 177*(246-306)
+ String r ops answer: -10620
+ String r ops correct answer: -10620
+ Answers Match
+ String r ops substring sr: G/
+ String r ops expression e: (124-166)/100
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /+
+ String r ops expression e: 476/259+207
+ String r ops answer: 208
+ String r ops correct answer: 208
+ Answers Match
+ String r ops substring sr: /*G
+ String r ops expression e: 392/173*(487-427)
+ String r ops answer: 0
+ String r ops correct answer: 120
+ Answers Do Not Match
+Reduced Requirement in error: [N]/[N]*(Expr-Factor)/[N]+[N]
+Pattern in error: /*G
+ String r ops substring sr: *G/
+ String r ops expression e: 24*(180-217)/465
+ String r ops answer: 0
+ String r ops correct answer: -1
+ Answers Do Not Match
+Reduced Requirement in error: [N]/[N]*(Expr-Factor)/[N]+[N]
+Pattern in error: *G/
+ String r ops substring sr: G/+
+ String r ops expression e: (161-311)/380+408
+ String r ops answer: 408
+ String r ops correct answer: 408
+ Answers Match
+ Causes to Array: [/*G, *G/]

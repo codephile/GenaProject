@@ -1,0 +1,12 @@
+
+ Requirement String: [N] ([N])
+
+ String r: [N]
+ String r ops: 
+ String r: ([N])
+ String r ops: J
+ String r ops substring sr: J
+ String r ops expression e: (282)
+ String r ops correct answer: 282
+ Answers Do Not Match
+ r: J

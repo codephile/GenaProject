@@ -1,0 +1,34 @@
+
+ String r: (Factor/Term)-Factor*Term
+ String r ops: I-*
+ String r ops substring sr: I
+ String r ops expression e: (484/77)
+ String r ops answer: 6
+ String r ops correct answer: 6
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 293-183
+ String r ops answer: 110
+ String r ops correct answer: 110
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 410*392
+ String r ops answer: 160720
+ String r ops correct answer: 160720
+ Answers Match
+ String r ops substring sr: I-
+ String r ops expression e: (47/171)-230
+ String r ops answer: -230
+ String r ops correct answer: -230
+ Answers Match
+ String r ops substring sr: -*
+ String r ops expression e: 155-359*125
+ String r ops answer: -44720
+ String r ops correct answer: -44720
+ Answers Match
+ String r ops substring sr: I-*
+ String r ops expression e: (390/458)-480*513
+ String r ops answer: -246240
+ String r ops correct answer: -246240
+ Answers Match
+ Causes to Array: No Causes Found

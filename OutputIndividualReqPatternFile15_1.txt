@@ -1,0 +1,34 @@
+
+ String r: [N]/[N]+Factor*Term
+ String r ops: /+*
+ String r ops substring sr: /
+ String r ops expression e: 283/63
+ String r ops answer: 4
+ String r ops correct answer: 4
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 167+75
+ String r ops answer: 242
+ String r ops correct answer: 242
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 416*507
+ String r ops answer: 210912
+ String r ops correct answer: 210912
+ Answers Match
+ String r ops substring sr: /+
+ String r ops expression e: 51/210+482
+ String r ops answer: 482
+ String r ops correct answer: 482
+ Answers Match
+ String r ops substring sr: +*
+ String r ops expression e: 250+386*168
+ String r ops answer: 65098
+ String r ops correct answer: 65098
+ Answers Match
+ String r ops substring sr: /+*
+ String r ops expression e: 223/199+347*354
+ String r ops answer: 122839
+ String r ops correct answer: 122839
+ Answers Match
+ Causes to Array: No Causes Found

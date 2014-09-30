@@ -1,0 +1,8 @@
+
+Reduced Requirement in error: [N]*([N])/[N]*[N]
+Pattern in error: J
+Reduced Requirement in error: ([N])
+Pattern in error outside loop: J
+Reduced Requirement in error: [N]/([N])/[N]
+Pattern in error outside loop: J
+ r: J

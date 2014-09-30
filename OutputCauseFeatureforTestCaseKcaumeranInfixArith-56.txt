@@ -1,0 +1,16 @@
+
+Reduced Requirement in error: [N]-[N]+Factor*Term
+Pattern in error: -+
+Reduced Requirement in error: [N]*[N]/(Expr+Factor)/[N]+Factor*Term
+Pattern in error: */
+Reduced Requirement in error: [N]*[N]/(Expr+Factor)/[N]+Factor*Term
+Pattern in error: /+
+Reduced Requirement in error: (Expr+Factor)-[N]-Factor*Term+[N]
+Pattern in error: --
+Reduced Requirement in error: (Expr+Factor)-[N]-Factor*Term+[N]
+Pattern in error: *+
+ r: -+
+ r: */
+ r: /+
+ r: --
+ r: *+

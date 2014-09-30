@@ -1,0 +1,40 @@
+
+ String r: [N]/[N]/[N]/[N]+[N]
+ String r ops: ///+
+ String r ops substring sr: /
+ String r ops expression e: 161/403
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 41/326
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 384/110
+ String r ops answer: 3
+ String r ops correct answer: 3
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 248+499
+ String r ops answer: 747
+ String r ops correct answer: 747
+ Answers Match
+ String r ops substring sr: //
+ String r ops expression e: 442/218/213
+ String r ops answer: 442
+ String r ops correct answer: 0
+ Answers Do Not Match
+Reduced Requirement in error: [N]/[N]/[N]/[N]+[N]
+Pattern in error: //
+ String r ops substring sr: //
+ Answers Do Not Match: Outside Loop
+Reduced Requirement in error: [N]/[N]/[N]/[N]+[N]
+Pattern in error outside loop: //
+ String r ops substring sr: /+
+ String r ops expression e: 214/61+128
+ String r ops answer: 131
+ String r ops correct answer: 131
+ Answers Match
+ Causes to Array: [//]

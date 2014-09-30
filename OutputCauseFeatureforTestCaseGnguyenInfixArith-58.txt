@@ -1,0 +1,44 @@
+
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error: #
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#1+Expr#2+Expr#1+Expr#0+Factor#1+Factor#2+Factor#2+Factor#1+Factor#1+Factor#2+Factor#0+Term#0+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#2+Expr#0+Factor#2+Factor#1+Factor#0+Term#1+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#2+Expr#0+Factor#2+Factor#1+Factor#0+Term#1+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#2+Expr#0+Factor#2+Factor#1+Factor#0+Term#1+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#2+Expr#0+Factor#2+Factor#1+Factor#0+Term#1+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#2+Expr#0+Factor#2+Factor#1+Factor#0+Term#1+
+Pattern in error outside loop: #
+Reduced Requirement in error: Expr#2+Expr#0+Factor#2+Factor#1+Factor#0+Term#1+
+Pattern in error outside loop: #
+Reduced Requirement in error: Factor#2+Factor#0+Term#1+
+Pattern in error outside loop: #
+Reduced Requirement in error: Factor#2+Factor#0+Term#1+
+Pattern in error outside loop: #
+Reduced Requirement in error: Factor#2+Factor#0+Term#1+
+Pattern in error outside loop: #
+ r: #

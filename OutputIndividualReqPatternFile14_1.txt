@@ -1,0 +1,19 @@
+
+ String r: (Factor*Term)/[N]
+ String r ops: H/
+ String r ops substring sr: H
+ String r ops expression e: (56*174)
+ String r ops answer: 9744
+ String r ops correct answer: 9744
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 493/333
+ String r ops answer: 1
+ String r ops correct answer: 1
+ Answers Match
+ String r ops substring sr: H/
+ String r ops expression e: (316*300)/133
+ String r ops answer: 712
+ String r ops correct answer: 712
+ Answers Match
+ Causes to Array: No Causes Found

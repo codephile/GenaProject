@@ -1,0 +1,138 @@
+
+ Requirement String: [N]/[N]/[N]*[N] [N]-Factor*Term-[N]+Factor*Term (Expr+Factor)*[N] (Factor*Term)/[N]/[N]*[N]/[N]*[N]+[N]-Factor*Term
+
+ String r: [N]/[N]/[N]*[N]
+ String r ops: //*
+ String r ops substring sr: /
+ String r ops expression e: 183/82
+ String r ops answer: 2
+ String r ops correct answer: 2
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 145/231
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 109*478
+ String r ops answer: 52102
+ String r ops correct answer: 52102
+ Answers Match
+ String r ops substring sr: //
+ String r ops expression e: 474/397/429
+ String r ops correct answer: 0
+ Answers Do Not Match
+ String r ops substring sr: /*
+ String r ops expression e: 251/198*195
+ String r ops answer: 0
+ String r ops correct answer: 195
+ Answers Do Not Match
+ String r: [N]-Factor*Term-[N]+Factor*Term
+ String r ops: -*-+*
+ String r ops substring sr: -
+ String r ops expression e: 53-243
+ String r ops answer: -190
+ String r ops correct answer: -190
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 358*458
+ String r ops answer: 163964
+ String r ops correct answer: 163964
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 196-100
+ String r ops answer: 96
+ String r ops correct answer: 96
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 464+56
+ String r ops answer: 520
+ String r ops correct answer: 520
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 104*201
+ String r ops answer: 20904
+ String r ops correct answer: 20904
+ Answers Match
+ String r ops substring sr: -*
+ String r ops expression e: 254-344*24
+ String r ops answer: -8002
+ String r ops correct answer: -8002
+ Answers Match
+ String r ops substring sr: *-
+ String r ops expression e: 147*357-217
+ String r ops answer: 52262
+ String r ops correct answer: 52262
+ Answers Match
+ String r ops substring sr: -+
+ String r ops expression e: 432-431+129
+ String r ops answer: -128
+ String r ops correct answer: 130
+ Answers Do Not Match
+ String r ops substring sr: +*
+ String r ops expression e: 329+445*477
+ String r ops answer: 212594
+ String r ops correct answer: 212594
+ Answers Match
+ String r: (Expr+Factor)*[N]
+ String r ops: F*
+ String r ops substring sr: F
+ String r ops expression e: (21+344)
+ String r ops correct answer: 365
+ Answers Do Not Match
+ String r ops substring sr: *
+ String r ops expression e: 313*441
+ String r ops answer: 138033
+ String r ops correct answer: 138033
+ Answers Match
+ String r: (Factor*Term)/[N]/[N]*[N]/[N]*[N]+[N]-Factor*Term
+ String r ops: H//*/*+-*
+ String r ops substring sr: H
+ String r ops expression e: (213*234)
+ String r ops correct answer: 49842
+ Answers Do Not Match
+ String r ops substring sr: /
+ String r ops expression e: 174/349
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 218/83
+ String r ops answer: 2
+ String r ops correct answer: 2
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 142*518
+ String r ops answer: 73556
+ String r ops correct answer: 73556
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 426/187
+ String r ops answer: 2
+ String r ops correct answer: 2
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 518*80
+ String r ops answer: 41440
+ String r ops correct answer: 41440
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 477+326
+ String r ops answer: 803
+ String r ops correct answer: 803
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 145-391
+ String r ops answer: -246
+ String r ops correct answer: -246
+ Answers Match
+ String r ops substring sr: *
+ String r ops expression e: 489*66
+ String r ops answer: 32274
+ String r ops correct answer: 32274
+ Answers Match
+ r: //
+ r: /*
+ r: -+
+ r: F
+ r: H

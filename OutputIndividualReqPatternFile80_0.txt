@@ -1,0 +1,54 @@
+
+ String r: (Expr+Factor)+Factor/Term-[N]
+ String r ops: F+/-
+ String r ops substring sr: F
+ String r ops expression e: (30+168)
+ String r ops answer: 198
+ String r ops correct answer: 198
+ Answers Match
+ String r ops substring sr: +
+ String r ops expression e: 450+419
+ String r ops answer: 869
+ String r ops correct answer: 869
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 334/114
+ String r ops answer: 2
+ String r ops correct answer: 2
+ Answers Match
+ String r ops substring sr: -
+ String r ops expression e: 258-99
+ String r ops answer: 159
+ String r ops correct answer: 159
+ Answers Match
+ String r ops substring sr: F+
+ String r ops expression e: (25+281)+182
+ String r ops answer: 488
+ String r ops correct answer: 488
+ Answers Match
+ String r ops substring sr: +/
+ String r ops expression e: 169+217/515
+ String r ops answer: 169
+ String r ops correct answer: 169
+ Answers Match
+ String r ops substring sr: /-
+ String r ops expression e: 177/281-226
+ String r ops answer: -226
+ String r ops correct answer: -226
+ Answers Match
+ String r ops substring sr: F+/
+ String r ops expression e: (303+437)+250/303
+ String r ops answer: 740
+ String r ops correct answer: 740
+ Answers Match
+ String r ops substring sr: +/-
+ String r ops expression e: 70+48/448-180
+ String r ops answer: -110
+ String r ops correct answer: -110
+ Answers Match
+ String r ops substring sr: F+/-
+ String r ops expression e: (319+509)+354/410-64
+ String r ops answer: 764
+ String r ops correct answer: 764
+ Answers Match
+ Causes to Array: No Causes Found

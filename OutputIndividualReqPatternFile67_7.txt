@@ -1,0 +1,9 @@
+
+ String r: ([N])
+ String r ops: J
+ String r ops substring sr: J
+ String r ops expression e: (305)
+ String r ops answer: 305
+ String r ops correct answer: 305
+ Answers Match
+ Causes to Array: No Causes Found

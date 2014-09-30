@@ -1,0 +1,46 @@
+
+ Requirement String: [N] [N]*[N]/([N])/([N]) [N]-Factor/Term
+
+ String r: [N]
+ String r ops: 
+ String r: [N]*[N]/([N])/([N])
+ String r ops: */J/J
+ String r ops substring sr: *
+ String r ops expression e: 261*304
+ String r ops answer: 79344
+ String r ops correct answer: 79344
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 54/242
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: J
+ String r ops expression e: (47)
+ String r ops correct answer: 47
+ Answers Do Not Match
+ String r ops substring sr: /
+ String r ops expression e: 232/387
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: J
+ Answers Do Not Match: Outside Loop
+ String r: [N]-Factor/Term
+ String r ops: -/
+ String r ops substring sr: -
+ String r ops expression e: 108-484
+ String r ops answer: -376
+ String r ops correct answer: -376
+ Answers Match
+ String r ops substring sr: /
+ String r ops expression e: 191/243
+ String r ops answer: 0
+ String r ops correct answer: 0
+ Answers Match
+ String r ops substring sr: -/
+ String r ops expression e: 124-411/133
+ String r ops answer: 121
+ String r ops correct answer: 121
+ Answers Match
+ r: J

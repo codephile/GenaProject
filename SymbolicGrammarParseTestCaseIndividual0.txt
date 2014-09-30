@@ -1,0 +1,35 @@
+
+Sub-Feature: Expr#0+Factor#2+Factor#1+Factor#0+Term#0+ 
+Corresponding Requirement String: (Expr+Factor)*[N]/[N]
+Sub-Feature: Expr#1+Expr#2+Expr#1+Expr#0+Factor#2+Factor#1+Factor#1+Factor#0+Term#1+ 
+Corresponding Requirement String: [N]*[N]*[N]/[N]+Factor/Term-[N]+Factor/Term
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]
+Sub-Feature: Factor#2+Factor#2+Factor#2+Factor#0+Term#1+ 
+Corresponding Requirement String: [N]/[N]/[N]/[N]
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]
+Sub-Feature: Factor#0+Term#1+ 
+Corresponding Requirement String: [N]
+Sub-Feature: Factor#2+Factor#1+Factor#1+Factor#1+Factor#0+Term#1+ 
+Corresponding Requirement String: [N]*[N]*[N]*[N]/[N]
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]
+Sub-Feature: Term#1+ 
+Corresponding Requirement String:  [N]

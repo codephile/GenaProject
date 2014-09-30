@@ -1,0 +1,19 @@
+
+ Requirement String: [N] [N]*([N])
+
+ String r: [N]
+ String r ops: 
+ String r: [N]*([N])
+ String r ops: *J
+ String r ops substring sr: *
+ String r ops expression e: 380*257
+ String r ops answer: 7
+ String r ops correct answer: 97660
+ Answers Do Not Match
+ String r ops substring sr: J
+ String r ops expression e: (137)
+ String r ops answer: 7
+ String r ops correct answer: 137
+ Answers Do Not Match
+ r: *
+ r: J
