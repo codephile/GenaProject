@@ -1,3 +1,0 @@
-
-Starting off ....
-[0] ii = 0: thisR before = R

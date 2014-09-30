@@ -1,6 +1,0 @@
-
-Reduced Requirement in error: [N]*[N]/[N]/[N]*[N]*[N]/[N]
-Pattern in error: */
-Reduced Requirement in error: [N]*[N]/[N]/[N]*[N]*[N]/[N]
-Pattern in error outside loop: */
- r: */

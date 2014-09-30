@@ -1,7 +1,0 @@
-
-Reduced Requirement in error: [N]+Factor/Term
-Pattern in error: +
-Reduced Requirement in error: [N]+Factor/Term
-Pattern in error: /
- r: +
- r: /

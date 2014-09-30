@@ -1,4 +1,0 @@
-
-Reduced Requirement in error: ((Expr-Factor))
-Pattern in error: B
- r: B

@@ -1,9 +1,0 @@
-
- String r: (Factor*Term)
- String r ops: H
- String r ops substring sr: H
- String r ops expression e: (429*353)
- String r ops answer: 151437
- String r ops correct answer: 151437
- Answers Match
- Causes to Array: No Causes Found

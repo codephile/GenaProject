@@ -1,8 +1,0 @@
-
-Reduced Requirement in error: (Expr-Factor)
-Pattern in error: G
-Reduced Requirement in error: [N]*(Expr-Factor)*([N])
-Pattern in error outside loop: G
-Reduced Requirement in error: [N]*(Expr-Factor)*([N])
-Pattern in error: J
- r: J

@@ -1,9 +1,0 @@
-
- String r: ([N])
- String r ops: J
- String r ops substring sr: J
- String r ops expression e: (148)
- String r ops answer: 148
- String r ops correct answer: 148
- Answers Match
- Causes to Array: No Causes Found

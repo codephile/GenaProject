@@ -1,4 +1,0 @@
-
-Reduced Requirement in error: [N]+((Expr+Factor))
-Pattern in error: A
- r: A
