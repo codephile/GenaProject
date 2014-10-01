@@ -90,7 +90,7 @@ public class InfixArithFaultDetector {
 		return errorCausesPatterns;
 	}	
 
-	public int detectIsErroringPatterns(String reqString, int SUTNumber, int rqNum, int SUTActual) {
+	public int detectIsErroringPatterns(String reqString, int SUTNumber, int rqNum, int SUTActual, ArrayList<String> exprListVar) {
 		
 		/*atc = new AllTestCases();
 		
@@ -99,7 +99,7 @@ public class InfixArithFaultDetector {
 		
 		programs = new Submission[size];
 		initialize( programs );
-		int returnVal = programs[SUTActual].findIfErrorRequirement(reqString, SUTNumber, rqNum);
+		int returnVal = programs[SUTActual].findIfErrorRequirement(reqString, SUTNumber, rqNum, exprListVar);
 		
 		/*for (int i = 0; i < size; i++) {
 			//System.out.printf("testing submision %d ....\n", i);

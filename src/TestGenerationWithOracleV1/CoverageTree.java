@@ -14,6 +14,7 @@ import java.util.Iterator;
 
 import InterlacedOracle.AllTestCases;
 import InterlacedOracle.InfixArithFaultDetector;
+import InterlacedOracle.Submission;
 
 public class CoverageTree {
 
@@ -40,10 +41,11 @@ public class CoverageTree {
 	private String traversalChainFile;
 	private String expressionChainFile;
 	private String featureChainFile;
-	private String evaluateChainFile, FeatureErrorFile;
-	private Formatter outputTC, outputEC, outputFC, outputEVCF, outputFE;
+	private String evaluateChainFile, FeatureErrorFile, outputTreeFile;
+	private Formatter outputTC, outputEC, outputFC, outputEVCF, outputFE, outputTree;
 	private int featureCounter=1, node_traversal_count = 0;
 	private String parseTree;
+	private int testCaseNum;
 	private ArrayList<String> errorPatterns = new ArrayList<String>();
 	private static String[] SUTName = {"AgillespieInfixArith", "AshearerInfixArith", "BrothInfixArith",
 		"CfrankInfixArith", "KcaumeranInfixArith", "KfloresInfixArith", "PkwetebokashangInfixArith",
@@ -114,11 +116,11 @@ public class CoverageTree {
 	
 	private void printFeature() {
 //		feature = sg.reqProcess(feature);
-		AllTestCases localatc = new AllTestCases();
+		//AllTestCases localatc = new AllTestCases();
 		allFeatures += feature + " ";
 		
 		// Added by UNO
-		featureChain.add(allFeatures);
+		/*featureChain.add(allFeatures);
 		String newfeature = feature+" ";
 		String newAllfeature = allFeatures;
 		
@@ -137,7 +139,7 @@ public class CoverageTree {
 		{
 			outputFC.format(" %s", r);
 		}
-		featureCounter++;
+		featureCounter++;*/
 		
 		output.format("%s ", feature);
 	}
@@ -146,21 +148,23 @@ public class CoverageTree {
 	{
 		HashMap<String, String> returnHashMap = sg.reqProcessIndividualHashMap(allFeatures);
 		HashMap<String, String> patternsInError = new HashMap<String, String>();
+		HashMap<String, ArrayList<String>> expressionsList = new HashMap<String, ArrayList<String>>(); 
 		InfixArithFaultDetector evaluatorInstance = new InfixArithFaultDetector();
 		
 		setFeatureErrorFile("FeatureErrorFileperSUTforTestCaseNumber"+testCaseNum+".txt");
 		
-		for(String a: returnHashMap.keySet())
+		/*for(String a: returnHashMap.keySet())
 		{
 			outputFE.format("\nSub-Feature "+a+": "+returnHashMap.get(a));
-		}
-		outputFE.format("\n");
+		}*/
+		outputFE.format("Analysis for Test Case"+testCaseNum+"\n");
 		for(int l = 0; l < 15; l++)
 		{
-			outputFE.format("\nError Inducing Subfeatures for SUT "+SUTName[l]+": \n");
+			outputFE.format("\nSUT "+SUTName[l]+": \n");
 			for(int i = 0; i < requirementStrings.size(); i++)
 			{
-				int isError = evaluatorInstance.detectIsErroringPatterns(requirementStrings.get(i), testCaseNum, i, l);
+				ArrayList<String> exprList = new ArrayList<String>();
+				int isError = evaluatorInstance.detectIsErroringPatterns(requirementStrings.get(i), testCaseNum, i, l, exprList);
 				if(isError == 1)
 				{
 					patternsInError.put(requirementStrings.get(i), "NOK");
@@ -169,27 +173,42 @@ public class CoverageTree {
 				{
 					patternsInError.put(requirementStrings.get(i), "OK");
 				}
+				
+				
+				expressionsList.put(requirementStrings.get(i), exprList);
+
 			}
 			String statusCode = "NOK";
-			int wasAnyError = 0;
+			int wasAnyError = 0, printIndex = 1;
 			for(String k: patternsInError.keySet())
 			{
-				if(patternsInError.get(k).equals(statusCode))
-				{
+				//if(patternsInError.get(k).equals(statusCode))
+				//{
 					for(String j: returnHashMap.keySet())
 					{
 						if(returnHashMap.get(j).equals(k))
 						{
-							outputFE.format("\nSub-feature inducing error: "+j);
-							wasAnyError = 1;
+							outputFE.format("\n"+(printIndex++)+". SubFeature : "+j);
+							outputFE.format("\n   Requirement String: "+k);
+							outputFE.format("\n   Test Case Generated:");
+							ArrayList<String> temp = expressionsList.get(returnHashMap.get(j));
+							for(int i = 0; i < temp.size(); i++)
+							{
+								outputFE.format(" "+temp.get(i));
+							}	
+							if(patternsInError.get(k).equals(statusCode))
+								outputFE.format("\n   Result: Fail");
+							else
+								outputFE.format("\n   Result: Pass");
+							//wasAnyError = 1;
 						}
 					}
-				}
+				//}
 			}
-			if(wasAnyError == 0)
+			/*if(wasAnyError == 0)
 			{
 				outputFE.format("\n No Sub-Features induce error");
-			}
+			}*/
 			outputFE.format("\n");
 			patternsInError.clear();
 		}
@@ -377,7 +396,30 @@ public class CoverageTree {
 			System.exit(0);
 		}	
 		return outputEVCF;
+	}
+	
+	// Added by UNO
+	public String getOutputTreeFile() {
+		return outputTreeFile;
 	}	
+	
+	public Formatter setOutputTree(String s) {
+		outputTreeFile = s;
+		try {
+			outputTree = new Formatter(getOutputTreeFile());
+		}
+		catch ( Exception e) {
+			System.err.println( "Unable to open file: " + getOutputTreeFile() + "\n" + e);
+			System.exit(0);
+		}	
+		return output;
+	}	
+	
+	
+	public void closeOutputTreeFile() {
+		if (outputTree != null)
+			outputTree.close();
+	}
 	
 	public void closeOutputFile() {
 		if (output != null)
@@ -792,7 +834,7 @@ public class CoverageTree {
 		
 	
 	
-	public String newTestCase(int testCaseNum) {
+	public String newTestCase(int testCase) {
 		
 		TreeNode root = getCoverageTree();
 		String tc;
@@ -801,14 +843,14 @@ public class CoverageTree {
 			System.out.println("The test coverage tree is completely covered! No more test cases will be generated!");
 			return null;
 		}
-		
+		testCaseNum = testCase;
 		newHits();   /* reset the hits tracing for each new test case */
 		emptyStack();
 		resetFeature();
 		resetAllFeatures();
 //		resetParseTree();
 		resetSemTree(getSymbolicGrammar().getMainVar());
-
+		
 		/* "semantics" is an indication to pop an item from the SemStack
 		   it's a synchronization between (derivation) stack and SemStack */
 		pushStack( "semantics" ); 
@@ -823,11 +865,14 @@ public class CoverageTree {
 		featureCounter=1;
 		outputFC.format("\nFeature Chain for test case "+testCaseNum+"....");
 		node_traversal_count = 0;
+		//exportCoverageTree(node_traversal_count);
 		tc = testCaseGeneration(root);
+		//exportCoverageTree(99);
+		//exportCoverageTreeWithProbability(100);
 		outputFC.format("\n--------End of Feature Chain--------\n");
 		
 		printAllFeatures(testCaseNum);
-		
+		//closeOutputTreeFile();
 		return tc;
 	}
 	
@@ -1305,7 +1350,7 @@ public class CoverageTree {
 		if (getCoverageTree() != null) {
 			incHandler();
 //			getCoverageTree().setHandler( getHandler() );
-			System.out.println(getCoverageTree());
+			//System.out.println(getCoverageTree());
 			return getCoverageTree();
 		}
 		else if (getSymbolicGrammar() != null) {
@@ -1344,7 +1389,7 @@ public class CoverageTree {
 	
 	
 	public TreeNode getCoverageTree() {
-		System.out.println(root);
+		//System.out.println(root);
 		return root;
 	}
 	
@@ -1360,32 +1405,32 @@ public class CoverageTree {
 	}
 	
 	
-/*	
-	public void exportCoverageTree() {
-		setOutputFile("coverageTree.dot");
+	
+/*	public void exportCoverageTree(int levelnum) {
+		setOutputTree("coverageTree_"+testCaseNum+"_Level_"+levelnum+".dot");
 		
-		output.format("digraph G{\n");
+		outputTree.format("digraph G{\n");
 		exportCoverageTree(root, 1);
-		output.format("}\n");
+		outputTree.format("}\n");
 		
-		closeOutputFile();
+		closeOutputTreeFile();
 	}
 	
 
 	private int exportCoverageTree(TreeNode p, int i) {
 		
 		// output the current node
-		String symbol = p.getSymbols();
+		String symbol = p.getExpressionAtNode();
 //		if (symbol != null) {
 		if ( !p.isCovered() ) {
 			if ( symbol != null )
-				output.format("    n%d[label=\"%s\"];\n", i, symbol);
+				outputTree.format("    n%d[label=\"%s\"];\n", i, symbol);
 		}
 		else if (symbol != null){
-			output.format("    n%d[label=\"%s\",style=filled,color=\".7 .3 1.0\"];\n", i, symbol);
+			outputTree.format("    n%d[label=\"%s\",style=filled,color=\".7 .3 1.0\"];\n", i, symbol);
 		}
 		else {
-			output.format("    n%d[peripheries=2,label=\"\",width=.1,height=.1,shape=box,style=filled,color=\".7 .3 1.0\"];\n", i);			
+			outputTree.format("    n%d[peripheries=2,label=\"\",width=.1,height=.1,shape=box,style=filled,color=\".7 .3 1.0\"];\n", i);			
 		}
 //		}
 //		else
@@ -1395,8 +1440,8 @@ public class CoverageTree {
 		
 		TreeNode child = p.getFirstChild();
 		while (child != null) {
-			if ( child.isCovered() || child.getSymbols() != null ) {
-				output.format("    n%d -> n%d [label=\"%s\"];\n", i, j, child.getDerivedSymbols());
+			if ( child.isCovered() || child.getExpressionAtNode() != null ) {
+				outputTree.format("    n%d -> n%d [label=\"%s\"];\n", i, j, child.getExpressionAtNode());
 				j = exportCoverageTree(child, j);
 			}
 			child = child.getNextSibling();
@@ -1407,42 +1452,50 @@ public class CoverageTree {
 
 	
 	
-	public void exportCoverageTreeWithProbability() {
-		setOutputFile("coverageTree.dot");
+	public void exportCoverageTreeWithProbability(int levelNum) {
+		setOutputTree("coverageTree_"+testCaseNum+"_Level_"+levelNum+".dot");
 		
-		output.format("digraph G{\n");
-		output.format("    node [shape = record];");
+		outputTree.format("digraph G{\n");
+		outputTree.format("    node [shape = record];");
 		exportCoverageTreeWithProbability(root, 1);
-		output.format("}\n");
+		outputTree.format("}\n");
 		
-		closeOutputFile();
+		closeOutputTreeFile();
 	}
 	
 	
 	private int exportCoverageTreeWithProbability(TreeNode p, int i) {
 		
 		// output the current node
-		String symbol = p.getSymbols();
+		String symbol = p.getExpressionAtNode();
+		String s;
 //		if (symbol != null) {
 		if ( !p.isCovered() ) {
 			if ( symbol != null ) {
 				double[] a = p.getChildrenProbability();
-				String s = String.format("<f0> %.2f", a[0]);
+				if(a.length == 0.0 )
+				{
+					 s = String.format("<f0> %.2f", 0.0);
+				}
+				else
+				{
+					 s = String.format("<f0> %.2f", a[0]);
+				}
 				int k = 1;
 				
 				while (k < a.length) {
-					s = String.format("%s |<f%d> %.2f", s, k, a[k]);
+					 s = String.format("%s |<f%d> %.2f", s, k, a[k]);
 					k++;
 				}
 				
-				output.format("    n%d[label=\"{%s | {%s}}\"];\n", i, symbol, s);
+				outputTree.format("    n%d[label=\"{%s | {%s}}\"];\n", i, symbol, s);
 			}
 		}
 		else if (symbol != null){
-			output.format("    n%d[label=\"%s\",style=filled,color=\".7 .3 1.0\"];\n", i, symbol);
+			outputTree.format("    n%d[label=\"%s\",style=filled,color=\".7 .3 1.0\"];\n", i, symbol);
 		}
 		else {
-			output.format("    n%d[peripheries=2,label=\"\",width=.1,height=.1,shape=box,style=filled,color=\".7 .3 1.0\"];\n", i);			
+			outputTree.format("    n%d[peripheries=2,label=\"\",width=.1,height=.1,shape=box,style=filled,color=\".7 .3 1.0\"];\n", i);			
 		}
 //		}
 //		else
@@ -1454,8 +1507,8 @@ public class CoverageTree {
 		int k = 0;
 		
 		while (child != null) {
-			if ( child.isCovered() || child.getSymbols() != null ) {
-				output.format("    n%d:<f%d> -> n%d [label=\"%s\"];\n", i, k, j, child.getDerivedSymbols());
+			if ( child.isCovered() || child.getExpressionAtNode() != null ) {
+				outputTree.format("    n%d:<f%d> -> n%d [label=\"%s\"];\n", i, k, j, child.getExpressionAtNode());
 				j = exportCoverageTreeWithProbability(child, j);
 			}
 			child = child.getNextSibling();
@@ -1463,9 +1516,9 @@ public class CoverageTree {
 		}
 		
 		return j;
-	}
+	}*/
 	
-	*/
+	
 	
 	public boolean isSingletonFun(SemNode s) {
 		

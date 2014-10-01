@@ -2,6 +2,7 @@ package InterlacedOracle;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Formatter;
 import java.util.Iterator;
 
@@ -593,7 +594,7 @@ public class Submission {
 		
 	}	
 	
-	public int findIfErrorRequirement(String reqs, int testCaseNum, int reqNum) {
+	public int findIfErrorRequirement(String reqs, int testCaseNum, int reqNum, ArrayList<String> exprListVar) {
 		
 		//setOutputIndividualReqPatternFile("OutputIndividualReqPatternFile"+testCaseNum+"_"+reqNum+".txt");
 		ReqCauseMap.resetCauseMap();
@@ -602,7 +603,7 @@ public class Submission {
 		InfixArith correct = new CorrectInfixArith();
 		boolean foundAnyFaults = false;
 		String[] temp = new String[0];
-		
+		exprListVar.clear();
 		if(reqs == null)
 		{
 			return 0;
@@ -630,6 +631,7 @@ public class Submission {
 					
 					if (B == null) { // not exist or no fault found yet
 						e = ReqCauseMap.ops2expr(sr);
+						exprListVar.add(e);
 						//outputIndividualReqPattern.format("\n String r ops expression e: %s",e);	
 
 						try {

@@ -46,16 +46,22 @@ public class TestGeneration {
 				output.format("%d: ", i);
 				
 				// Added by UNO
+				//System.out.println("Before Traversal Chain:");
 				t.resetTraversalChain();
+				//System.out.println("Before Reset Expr Chain:");
 				t.resetExpressionChain();
+				//System.out.println("Before Reset Feature Chain:");
 				t.resetFeatureChain();
+				//System.out.println("Before Reset Evaluate Chain:");
 				t.resetEvaluateChain();
+				//System.out.println("Before Reset Parse Chain:");
 				t.resetParseTree();
-				
+				//System.out.println("Before New Test CAse Chain:");
 				String test = t.newTestCase(i);
 				if (test == null) break;
 				
 				// Added by UNO
+				//System.out.println("Before get all features Chain:");
 				String reqString = t.getAllFeatures();
 				String resultString = "Expected Result: "+t.evaluate();
 				String logFileName = "TestCaseNo"+i+"Result.txt";
@@ -71,6 +77,7 @@ public class TestGeneration {
 				t.dumpTraversalChain(i);
 				t.dumpExpressionChain(i);
 				t.dumpEvaluateChain(i);
+				//System.out.println("Before print parse tree Chain:");
 				t.printParseTree();
 				
 				outputExpr.format("%s\n", test);

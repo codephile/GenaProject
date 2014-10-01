@@ -68,8 +68,7 @@ public class TreeNode {
 	}
 	
 	// setter and getter methods from private data
-	/*
-	public void setHandler(int h) {
+/*	public void setHandler(int h) {
 		handler = h;
 	}
 	
@@ -79,9 +78,9 @@ public class TreeNode {
 	
 	public void setSymbols(String s) {
 		symbols = s;
-	}
+	}*/
 	
-	public String getSymbols() {
+	/*public String getSymbols() {
 		return symbols;
 	}
 	

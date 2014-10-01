@@ -545,7 +545,7 @@ public class SymbolicGrammar {
 		
 		HashMap<String, String> reqMap = new HashMap<String, String>();
 		
-		//setSymGrammarFile("SymbolicGrammarParseTestCaseIndividual"+testCaseNumber+".txt");
+		setSymGrammarFile("SymbolicGrammarParseTestCaseIndividual"+testCaseNumber+".txt");
 		
 		returnRequirements.clear();
 		
@@ -695,37 +695,37 @@ public class SymbolicGrammar {
 	
 	private String reqs2Plus(String[] reqs, ArrayList<String> reqsPlus  ) {
 		try{
-		//symGrammar.format("\n[%d][%d] Recursion number: %d", ii, recursionNumber, recursionNumber);
-		//.format("\n[%d][%d]Current sub expression: %s at ii = %d", ii, recursionNumber, reqs[ii], ii);
+		symGrammar.format("\n[%d][%d] Recursion number: %d", ii, recursionNumber, recursionNumber);
+		symGrammar.format("\n[%d][%d]Current sub expression: %s at ii = %d", ii, recursionNumber, reqs[ii], ii);
 		String[] r = reqs[ii].split("\\+");
 		String thisR = "";
 		String principalReq = "";    // used to represent the principle operator of this req. 
 
 		String var = getVar( r[r.length - 1] );
 		int index = getIndex( r[r.length - 1] );
-		//symGrammar.format("\n[%d][%d]Value of r.Length: %d", ii, recursionNumber, r.length);
-		//symGrammar.format("\n[%d][%d]Var: %s at index = %d", ii, recursionNumber, var, index);
-		// get the leftmost token of thisR
+		symGrammar.format("\n[%d][%d]Value of r.Length: %d", ii, recursionNumber, r.length);
+		symGrammar.format("\n[%d][%d]Var: %s at index = %d", ii, recursionNumber, var, index);
+		//get the leftmost token of thisR
 		String[] token = getGrammar(var).get(index).getStringTokenizer();
-		//symGrammar.format("\n[%d][%d]Token Length: %d", ii, recursionNumber, token.length);
+		symGrammar.format("\n[%d][%d]Token Length: %d", ii, recursionNumber, token.length);
 		for (int k = 0; k < token.length; k++ ) {
-			//symGrammar.format("\n[%d][%d]Loop k: %d, token[k]: %s", ii, recursionNumber, k, token[k]);
+			symGrammar.format("\n[%d][%d]Loop k: %d, token[k]: %s", ii, recursionNumber, k, token[k]);
 			if (isVar(token[k])) {
-				//symGrammar.format("\n[%d][%d]isVar is true", ii, recursionNumber);
+				symGrammar.format("\n[%d][%d]isVar is true", ii, recursionNumber);
 				recursionNumber++;
 				ii++;
-				//symGrammar.format("\n[%d][%d] ii = %d: thisR before = %s", ii, recursionNumber, ii, thisR);
+				symGrammar.format("\n[%d][%d] ii = %d: thisR before = %s", ii, recursionNumber, ii, thisR);
 				thisR += reqs2Plus(reqs, reqsPlus);
-				//symGrammar.format("\n[%d][%d] ii = %d: thisR after = %s", ii, recursionNumber, ii, thisR);
+				symGrammar.format("\n[%d][%d] ii = %d: thisR after = %s", ii, recursionNumber, ii, thisR);
 			}
 			else {
-				//symGrammar.format("\n[%d][%d]isVar is false", ii, recursionNumber);
+				symGrammar.format("\n[%d][%d]isVar is false", ii, recursionNumber);
 				thisR += token[k];
-				//symGrammar.format("\n[%d][%d]Value of thisR: %s", ii, recursionNumber, thisR);
+				symGrammar.format("\n[%d][%d]Value of thisR: %s", ii, recursionNumber, thisR);
 			}		
 		}
 		principalReq = thisR;
-		//symGrammar.format("\n[%d][%d]Value of principalReq: %s", ii, recursionNumber, principalReq);
+		symGrammar.format("\n[%d][%d]Value of principalReq: %s", ii, recursionNumber, principalReq);
 
 		// from now on, for each applied grammar rule (e.g., E ::= E - F)
 		// only "- F" will be append into thisR
@@ -733,32 +733,32 @@ public class SymbolicGrammar {
 		
 			var = getVar( r[j] );
 			index = getIndex( r[j] );
-			//symGrammar.format("\n[%d][%d]Value of j: %d Value of r[j]: %s, var: %s index: %d", ii, recursionNumber, j, r[j], var, index);
+			symGrammar.format("\n[%d][%d]Value of j: %d Value of r[j]: %s, var: %s index: %d", ii, recursionNumber, j, r[j], var, index);
 			token = getGrammar(var).get(index).getStringTokenizer();
-			//symGrammar.format("\n[%d][%d]Value of token length: %s", ii, recursionNumber, token.length);
+			symGrammar.format("\n[%d][%d]Value of token length: %s", ii, recursionNumber, token.length);
 			if (token.length > 1) {  // to find the principle non-unit production
 				principalReq = arrayList2str(token);
-				//symGrammar.format("\n[%d][%d]Token greater than 1 -> Value of principalReq: %s", ii, recursionNumber, principalReq);
+				symGrammar.format("\n[%d][%d]Token greater than 1 -> Value of principalReq: %s", ii, recursionNumber, principalReq);
 			}
 			for (int k = 1; k < token.length; k++ ) {	
-				//symGrammar.format("\n[%d][%d]Later Loop k: %d, token[k]: %s", ii, recursionNumber, k, token[k]);
+				symGrammar.format("\n[%d][%d]Later Loop k: %d, token[k]: %s", ii, recursionNumber, k, token[k]);
 				if (isVar(token[k])) {
-					//symGrammar.format("\n[%d][%d]isVar is true", ii, recursionNumber);
+					symGrammar.format("\n[%d][%d]isVar is true", ii, recursionNumber);
 					recursionNumber++;
 					ii++;
-					//symGrammar.format("\n[%d][%d] ii = %d: thisR before = %s", ii, recursionNumber, ii, thisR);
+					symGrammar.format("\n[%d][%d] ii = %d: thisR before = %s", ii, recursionNumber, ii, thisR);
 					thisR += reqs2Plus(reqs, reqsPlus);
-					//symGrammar.format("\n[%d][%d] ii = %d: thisR after = %s", ii, recursionNumber, ii, thisR);
+					symGrammar.format("\n[%d][%d] ii = %d: thisR after = %s", ii, recursionNumber, ii, thisR);
 				}
 				else {
-					//symGrammar.format("\n[%d][%d]isVar is false", ii, recursionNumber);
+					symGrammar.format("\n[%d][%d]isVar is false", ii, recursionNumber);
 					thisR += token[k];
-					//symGrammar.format("\n[%d][%d]Value of thisR: %s", ii, recursionNumber, thisR);
+					symGrammar.format("\n[%d][%d]Value of thisR: %s", ii, recursionNumber, thisR);
 				}	
 			}			
 		}
 		
-		//symGrammar.format("\n[%d][%d]Added to reqsPlus: %s", ii, recursionNumber, thisR);
+		symGrammar.format("\n[%d][%d]Added to reqsPlus: %s", ii, recursionNumber, thisR);
 		reqsPlus.add(thisR);
 		recursionNumber--;
 		return principalReq;
