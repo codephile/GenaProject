@@ -594,7 +594,14 @@ public class Submission {
 		
 	}	
 	
-	public int findIfErrorRequirement(String reqs, int testCaseNum, int reqNum, ArrayList<String> exprListVar) {
+	public String formSingularExpression(String operandExprList)
+	{
+		String outputExpression = ReqCauseMap.ops2expr(operandExprList);
+		return outputExpression;
+		
+	}
+	
+	public int findIfErrorRequirement(String reqs, int testCaseNum, int reqNum, ArrayList<String> exprListVar, String testString) {
 		
 		//setOutputIndividualReqPatternFile("OutputIndividualReqPatternFile"+testCaseNum+"_"+reqNum+".txt");
 		ReqCauseMap.resetCauseMap();
@@ -603,6 +610,7 @@ public class Submission {
 		InfixArith correct = new CorrectInfixArith();
 		boolean foundAnyFaults = false;
 		String[] temp = new String[0];
+		int isError = 0;
 		exprListVar.clear();
 		if(reqs == null)
 		{
@@ -618,9 +626,14 @@ public class Submission {
 		//outputIndividualReqPattern.format("\n String r: %s",reqs);
 			boolean foundLowLevelFaults = false;
 		    String ops = ReqCauseMap.req2ops(reqs);
+		    
+		    
+		    testString = formSingularExpression(ops);
 		    //outputIndividualReqPattern.format("\n String r ops: %s",ops);
 			for (int len = 1; len <= ops.length(); len++) {
 				String subReq[] = ReqCauseMap.opsAtLen(ops, len);
+				
+				
 				
 				for (String sr : subReq) {
 					//outputIndividualReqPattern.format("\n String r ops substring sr: %s",sr);					

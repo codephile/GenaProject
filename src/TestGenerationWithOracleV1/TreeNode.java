@@ -11,6 +11,7 @@ public class TreeNode {
 	private String derivedSymbols;
 	*/
 	private String expressionAtNode="";
+	private double nodeGUID = 0.0;
 	private String testCaseAtStart;
 	private int node_traversal_index;
 	private double  runningProbability;
@@ -148,8 +149,18 @@ public class TreeNode {
 	public String getExpressionAtNode()
 	{
 		return expressionAtNode;
-	}		
+	}	
+
+	public void setNodeGUID(double s)
+	{
+		nodeGUID = s;
+	}
 	
+	public double getNodeGUID()
+	{
+		return nodeGUID;
+	}	
+		
 	public int getNodeTraversalIndex()
 	{
 		return node_traversal_index;
