@@ -24,72 +24,75 @@ public class TestGeneration {
 		g.printGrammarMap();
 		System.out.println("End of Grammar Map");
 		
-		CoverageTree t = new CoverageTree(g);
-		
-		t.newCoverageTree();
-		
-		
 //		output = t.setOutputFile("test1WithSem.txt");
-		output = t.setOutputFile("casesWithSem.txt");
-		
-		// Added by UNO
-		outputTC = t.setTraversalChainFile("traversalChainperTestCase.txt");
-		outputEC = t.setExpressionChainFile("ExpressionChainperTestCase.txt");
-		outputFC = t.setFeatureChainFile("FeatureChainperTestCase.txt");
-		outputEVCF = t.setEvaluateChainFile("EvaluateChainperTestCase.txt");
 		
 		//g.reqProcess("Factor#0+Term#1+ ");
 		try {
 			outputExpr = new Formatter("testcases.txt");
-		
-			for (int i = 0; i < 100; i++) {
-				output.format("%d: ", i);
+			for(int testSUTNum = 0; testSUTNum < 15; testSUTNum++)
+			{
+				CoverageTree t = new CoverageTree(g);
+				t.newCoverageTree();
+				
+				output = t.setOutputFile("casesWithSem_SUT-"+testSUTNum+".txt");
 				
 				// Added by UNO
-				//System.out.println("Before Traversal Chain:");
-				t.resetTraversalChain();
-				//System.out.println("Before Reset Expr Chain:");
-				t.resetExpressionChain();
-				//System.out.println("Before Reset Feature Chain:");
-				t.resetFeatureChain();
-				//System.out.println("Before Reset Evaluate Chain:");
-				t.resetEvaluateChain();
-				//System.out.println("Before Reset Parse Chain:");
-				t.resetParseTree();
-				//System.out.println("Before New Test CAse Chain:");
-				String test = t.newTestCase(i);
-				if (test == null) break;
+				//outputTC = t.setTraversalChainFile("traversalChainperTestCase_SUT-"+testSUTNum+".txt");
+				//outputEC = t.setExpressionChainFile("ExpressionChainperTestCase_SUT-"+testSUTNum+".txt");
+				//outputFC = t.setFeatureChainFile("FeatureChainperTestCase_SUT-"+testSUTNum+".txt");
+				//outputEVCF = t.setEvaluateChainFile("EvaluateChainperTestCase_SUT-"+testSUTNum+".txt");				
+				
+				for (int i = 0; i < 100; i++) 
+				{
+					output.format("%d: ", i);
+					
+					// Added by UNO
+					//System.out.println("Before Traversal Chain:");
+					//t.resetTraversalChain();
+					//System.out.println("Before Reset Expr Chain:");
+					//t.resetExpressionChain();
+					//System.out.println("Before Reset Feature Chain:");
+					//t.resetFeatureChain();
+					//System.out.println("Before Reset Evaluate Chain:");
+					//t.resetEvaluateChain();
+					//System.out.println("Before Reset Parse Chain:");
+					//t.resetParseTree();
+					//System.out.println("Before New Test CAse Chain:");
+					String test = t.newTestCase(i, testSUTNum);
+					if (test == null) break;
+					
+					// Added by UNO
+					//System.out.println("Before get all features Chain:");
+					/*String reqString = t.getAllFeatures();
+					String resultString = "Expected Result: "+t.evaluate();
+					String logFileName = "TestCaseNo"+i+"Result.txt";
+					socketSUT.feedSUTSingleTestCase(reqString, test, resultString, logFileName, i);*/
+					
+					output.format("\n");
+					
+					//t.printParseTree();
+					output.format("[[ %s ]]\n", test);
+					output.format("Expected Result: %s\n\n", t.evaluate());
+					
+					// Added by UNO
+					//t.dumpTraversalChain(i);
+					//t.dumpExpressionChain(i);
+					//t.dumpEvaluateChain(i);
+					//System.out.println("Before print parse tree Chain:");
+					//t.printParseTree();
+					
+					outputExpr.format("%s\n", test);
+				}
+				t.closeOutputFile();
 				
 				// Added by UNO
-				//System.out.println("Before get all features Chain:");
-				String reqString = t.getAllFeatures();
-				String resultString = "Expected Result: "+t.evaluate();
-				String logFileName = "TestCaseNo"+i+"Result.txt";
-				socketSUT.feedSUTSingleTestCase(reqString, test, resultString, logFileName, i);
+				//t.closeTraversalChainFile();
+				//t.closeExpressionChainFile();
+				//t.closeFeatureChainFile();
+				//t.closeEvaluateChainFile();
 				
-				output.format("\n");
-				
-		//t.printParseTree();
-				output.format("[[ %s ]]\n", test);
-				output.format("Expected Result: %s\n\n", t.evaluate());
-				
-				// Added by UNO
-				t.dumpTraversalChain(i);
-				t.dumpExpressionChain(i);
-				t.dumpEvaluateChain(i);
-				//System.out.println("Before print parse tree Chain:");
-				t.printParseTree();
-				
-				outputExpr.format("%s\n", test);
+				System.out.println("\nSUT "+testSUTNum+" process completed.");
 			}
-			t.closeOutputFile();
-			
-			// Added by UNO
-			t.closeTraversalChainFile();
-			t.closeExpressionChainFile();
-			t.closeFeatureChainFile();
-			t.closeEvaluateChainFile();
-			
 			outputExpr.close();
 		}
 		catch ( FileNotFoundException e1 ) {
@@ -162,7 +165,7 @@ public class TestGeneration {
 		
 			for (int i = 0; i < size; i++) {
 				output.format("%d: ", i);
-				String test = t.newTestCase(i);
+				String test = t.newTestCase(i, i);
 				if (test == null) break;
 				
 				output.format("\n");

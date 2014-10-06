@@ -43,8 +43,8 @@ public class InfixArithFaultDetector {
 			
 		}
 
-		printResults();
-		printResults("FaultResult_1000Exp_ASE2013.txt");
+		//printResults();
+		//printResults("FaultResult_1000Exp_ASE2013.txt");
 	}
 	
 	// Added by UNO

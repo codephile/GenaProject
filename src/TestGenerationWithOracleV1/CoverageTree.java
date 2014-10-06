@@ -48,6 +48,7 @@ public class CoverageTree {
 	private int featureCounter=1, node_traversal_count = 0;
 	private String parseTree;
 	private int testCaseNum;
+	private int testSUTNumber;
 	private int isStartOfFeature = 1;
 	private ArrayList<Double> featureStartNodeIndices = new ArrayList<Double>();
 	private ArrayList<String> featureSetAtIndex = new ArrayList<String>();
@@ -166,21 +167,21 @@ public class CoverageTree {
 		HashMap<String, String> testStringList = new HashMap<String, String>();
 		InfixArithFaultDetector evaluatorInstance = new InfixArithFaultDetector();
 		ReqCauseMap reqCauseMapInstance = new ReqCauseMap();
-		setFeatureErrorFile("FeatureErrorFileperSUTforTestCaseNumber"+testCaseNum+".txt");
+		setFeatureErrorFile("FeatureErrorFileperSUTforTestCaseNumber"+testCaseNum+"SUT-"+SUTName[testSUTNumber]+".txt");
 		
 		/*for(String a: returnHashMap.keySet())
 		{
 			outputFE.format("\nSub-Feature "+a+": "+returnHashMap.get(a));
 		}*/
 		outputFE.format("Analysis for Test Case"+testCaseNum+"\n");
-		for(int l = 0; l < 15; l++)
-		{
-			outputFE.format("\nSUT "+SUTName[l]+": \n");
+		//for(int l = 0; l < 15; l++)
+		//{
+			outputFE.format("\nSUT "+SUTName[testSUTNumber]+": \n");
 			for(int i = 0; i < requirementStrings.size(); i++)
 			{
 				ArrayList<String> exprList = new ArrayList<String>();
 				String testString = new String();
-				int isError = evaluatorInstance.detectIsErroringPatterns(requirementStrings.get(i), testCaseNum, i, l, exprList, testString);
+				int isError = evaluatorInstance.detectIsErroringPatterns(requirementStrings.get(i), testCaseNum, i, testSUTNumber, exprList, testString);
 				testStringList.put(requirementStrings.get(i), testString);
 				if(isError == 1)
 				{
@@ -196,7 +197,7 @@ public class CoverageTree {
 							{
 								if(feature.equals(j))
 								{
-									System.out.println("\n ESF = "+j+" start node = "+featureStartNodeIndices.get(indexNum));
+									//System.out.println("\n ESF = "+j+" start node = "+featureStartNodeIndices.get(indexNum));
 									int k = findNodeByID(root, featureStartNodeIndices.get(indexNum), temp);
 								}
 								indexNum++;
@@ -254,7 +255,7 @@ public class CoverageTree {
 			}*/
 			outputFE.format("\n");
 			patternsInError.clear();
-		}
+		//}
 		closeFeatureErrorFile();
 	}
 	
@@ -751,7 +752,7 @@ public class CoverageTree {
 		evaluateChain.add("getDerivedNode:Insert Exp: "+feature);
 		
         // the next line is related to parse tree
-				appendParseTree(token+i+"(");
+				//appendParseTree(token+i+"(");
 		
 		GrammarRule grammar = sg.getGrammar(token).get(i);
 		String[] tokens = grammar.getStringTokenizer();
@@ -884,7 +885,7 @@ public class CoverageTree {
 		
 	
 	
-	public String newTestCase(int testCase) {
+	public String newTestCase(int testCase, int testSUTNum) {
 		
 		TreeNode root = getCoverageTree();
 		String tc;
@@ -894,11 +895,12 @@ public class CoverageTree {
 			return null;
 		}
 		testCaseNum = testCase;
+		testSUTNumber = testSUTNum; 
 		newHits();   /* reset the hits tracing for each new test case */
 		emptyStack();
 		resetFeature();
 		resetAllFeatures();
-//		resetParseTree();
+//		//resetParseTree();
 		resetSemTree(getSymbolicGrammar().getMainVar());
 		
 		/* "semantics" is an indication to pop an item from the SemStack
@@ -913,7 +915,7 @@ public class CoverageTree {
 		evaluateChain.add("newTestCase:SS push: "+getSemTreeRoot().getElement());
 		
 		featureCounter=1;
-		outputFC.format("\nFeature Chain for test case "+testCaseNum+"....");
+		//outputFC.format("\nFeature Chain for test case "+testCaseNum+"....");
 		node_traversal_count = 0;
 		//exportCoverageTree(node_traversal_count);
 		tc = testCaseGeneration(root);
@@ -925,7 +927,7 @@ public class CoverageTree {
 		}*/
 		//exportCoverageTree(99);
 		//exportCoverageTreeWithProbability(100);
-		outputFC.format("\n--------End of Feature Chain--------\n");
+		//outputFC.format("\n--------End of Feature Chain--------\n");
 		
 		printAllFeatures(testCaseNum);
 		//closeOutputTreeFile();
@@ -1037,7 +1039,7 @@ public class CoverageTree {
 	{
 		Iterator<TreeNode> itr = traversalChain.iterator();
 		int traversalIndex = 1, isCoveredVal = 0, hasChild=0, hasSibling=0;
-		outputTC.format("\nTraversal Chain for test case "+i+"....");
+		//outputTC.format("\nTraversal Chain for test case "+i+"....");
 		while(itr.hasNext())
 		{
 			TreeNode temp = itr.next();
@@ -1062,14 +1064,14 @@ public class CoverageTree {
 				hasSibling = 0;
 			}
 			
-			outputTC.format("\nTraversal Index: %d Tree Node Information: (%d, %f, %d, %d, %s)", traversalIndex, temp.getNodeTraversalIndex(), temp.getRunningProbability(), temp.getIndex(), isCoveredVal, temp.getExpressionAtNode());
+			//outputTC.format("\nTraversal Index: %d Tree Node Information: (%d, %f, %d, %d, %s)", traversalIndex, temp.getNodeTraversalIndex(), temp.getRunningProbability(), temp.getIndex(), isCoveredVal, temp.getExpressionAtNode());
 			if(hasChild == 1)
 			{
 				if(temp.getFirstChild().isCovered())
 					isCoveredVal = 1;
 				else
 					isCoveredVal = 0;
-				outputTC.format("  Child Node Information: (%f, %d, %d, %s)", temp.getFirstChild().getRunningProbability(), temp.getFirstChild().getIndex(), isCoveredVal, temp.getFirstChild().getExpressionAtNode());
+				//outputTC.format("  Child Node Information: (%f, %d, %d, %s)", temp.getFirstChild().getRunningProbability(), temp.getFirstChild().getIndex(), isCoveredVal, temp.getFirstChild().getExpressionAtNode());
 			}
 			if(hasSibling == 1)
 			{
@@ -1077,11 +1079,11 @@ public class CoverageTree {
 					isCoveredVal = 1;
 				else
 					isCoveredVal = 0;
-				outputTC.format("  Sibling Node Information: (%f, %d, %d, %s)", temp.getNextSibling().getRunningProbability(), temp.getNextSibling().getIndex(), isCoveredVal, temp.getNextSibling().getExpressionAtNode());
+				//outputTC.format("  Sibling Node Information: (%f, %d, %d, %s)", temp.getNextSibling().getRunningProbability(), temp.getNextSibling().getIndex(), isCoveredVal, temp.getNextSibling().getExpressionAtNode());
 			}
             traversalIndex++;
 		}
-		outputTC.format("\n--------End of Traversal Chain--------\n");
+		//outputTC.format("\n--------End of Traversal Chain--------\n");
 	}
 	
 	// Added by UNO
@@ -1116,13 +1118,13 @@ public class CoverageTree {
 	{
 		Iterator<String> itr = expressionChain.iterator();
 		int expressionIndex = 1;
-		outputEC.format("\nExpression Chain for test case "+i+"....");
+		//outputEC.format("\nExpression Chain for test case "+i+"....");
 		while(itr.hasNext())
 		{
-			outputEC.format("\nExpression Index: %d Expression: %s", expressionIndex, itr.next());
+			//outputEC.format("\nExpression Index: %d Expression: %s", expressionIndex, itr.next());
 			expressionIndex++;
 		}
-		outputTC.format("\n--------End of Expression Chain--------\n");
+		//outputTC.format("\n--------End of Expression Chain--------\n");
 	}
 	
 	// Added by UNO
@@ -1181,13 +1183,13 @@ public class CoverageTree {
 	{
 		Iterator<String> itr = evaluateChain.iterator();
 		int evaluateIndex = 1;
-		outputEVCF.format("\nEvaluate Chain for test case "+i+"....");
+		//outputEVCF.format("\nEvaluate Chain for test case "+i+"....");
 		while(itr.hasNext())
 		{
-			outputEVCF.format("\nEvaluate Index: %d -> %s", evaluateIndex, itr.next());
+			//outputEVCF.format("\nEvaluate Index: %d -> %s", evaluateIndex, itr.next());
 			evaluateIndex++;
 		}
-		outputEVCF.format("\n--------End of Evaluate Chain--------\n");
+		//outputEVCF.format("\n--------End of Evaluate Chain--------\n");
 	}
 	
 	// Added by UNO
@@ -1243,7 +1245,7 @@ public class CoverageTree {
 			token = token.substring(5);
 			popStack();
 			// the next line is related to parse tree
-						appendParseTree(")");
+						//appendParseTree(")");
 	/*		
 			int previous = stack.lastIndexOf("memo:"+token);
 
@@ -1358,7 +1360,7 @@ public class CoverageTree {
 				for (int i = 0; i < getStack().size() / 2; i++) {
 					s += ")";
 				}
-				appendParseTree(s);
+				//appendParseTree(s);
 				
     			
 				// Added by UNO
@@ -1589,7 +1591,7 @@ public class CoverageTree {
 		if(nodeguid == i)
 		{
 			p.setCovered(true);
-			System.out.println("\nNode set as covered");
+			//System.out.println("\nNode set as covered");
 			wasFound = 1;
 			return 0;
 		}
@@ -1644,7 +1646,7 @@ public class CoverageTree {
 				if(child.getNodeGUID() == i)
 				{
 					p.setCovered(true);
-					System.out.println("\nNode set as covered");
+					//System.out.println("\nNode set as covered");
 					wasFound = 1;
 					return 0;
 				}
@@ -1656,7 +1658,7 @@ public class CoverageTree {
 			if(child.getNodeGUID() == i)
 			{
 				p.setCovered(true);
-				System.out.println("\nNode set as covered");
+				//System.out.println("\nNode set as covered");
 				wasFound = 1;
 				return 0;
 			}	
